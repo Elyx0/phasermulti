@@ -1,0 +1,2623 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json Daily2d@1.0.0 No repository field.
+6 warn package.json Daily2d@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/DEV/Sites/www/daily2d',
+8 verbose install   [ 'engine.io',
+8 verbose install     'eureca.io',
+8 verbose install     'express',
+8 verbose install     'sockjs',
+8 verbose install     'canvas',
+8 verbose install     'Phaser',
+8 verbose install     'jsdom',
+8 verbose install     'shortid' ] ]
+9 info preinstall Daily2d@1.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping engine.io@^1.4.0 /Users/DEV/Sites/www/daily2d
+12 verbose already installed skipping eureca.io@^0.6.1 /Users/DEV/Sites/www/daily2d
+13 verbose already installed skipping express@^4.9.4 /Users/DEV/Sites/www/daily2d
+14 verbose already installed skipping sockjs@^0.3.9 /Users/DEV/Sites/www/daily2d
+15 verbose already installed skipping canvas@~1.1.4 /Users/DEV/Sites/www/daily2d
+16 verbose cache add [ 'Phaser@http://github.com/photonstorm/phaser/tarball/v2.1.0',
+16 verbose cache add   null ]
+17 verbose cache add spec="Phaser@http://github.com/photonstorm/phaser/tarball/v2.1.0" args=["Phaser@http://github.com/photonstorm/phaser/tarball/v2.1.0",null]
+18 verbose parsed spec { raw: 'Phaser@http://github.com/photonstorm/phaser/tarball/v2.1.0',
+18 verbose parsed spec   scope: null,
+18 verbose parsed spec   name: 'Phaser',
+18 verbose parsed spec   rawSpec: 'http://github.com/photonstorm/phaser/tarball/v2.1.0',
+18 verbose parsed spec   spec: 'http://github.com/photonstorm/phaser/tarball/v2.1.0',
+18 verbose parsed spec   type: 'remote' }
+19 verbose already installed skipping jsdom@~0.11.0 /Users/DEV/Sites/www/daily2d
+20 verbose already installed skipping shortid@~2.0.1 /Users/DEV/Sites/www/daily2d
+21 verbose parsed spec { raw: 'Phaser@http://github.com/photonstorm/phaser/tarball/v2.1.0',
+21 verbose parsed spec   scope: null,
+21 verbose parsed spec   name: 'Phaser',
+21 verbose parsed spec   rawSpec: 'http://github.com/photonstorm/phaser/tarball/v2.1.0',
+21 verbose parsed spec   spec: 'http://github.com/photonstorm/phaser/tarball/v2.1.0',
+21 verbose parsed spec   type: 'remote' }
+22 silly lockFile e8533fda-hotonstorm-phaser-tarball-v2-1-0 http://github.com/photonstorm/phaser/tarball/v2.1.0
+23 verbose lock http://github.com/photonstorm/phaser/tarball/v2.1.0 /Users/DEV/.npm/e8533fda-hotonstorm-phaser-tarball-v2-1-0.lock
+24 verbose addRemoteTarball [ 'http://github.com/photonstorm/phaser/tarball/v2.1.0', null ]
+25 info retry fetch attempt 1 at 12:34:57
+26 info attempt registry request try #1 at 12:34:57
+27 http fetch GET http://github.com/photonstorm/phaser/tarball/v2.1.0
+28 verbose request id 3d35cf386f64c47c
+29 http fetch 200 http://github.com/photonstorm/phaser/tarball/v2.1.0
+30 silly fetchAndShaCheck shasum 2d0b1b49a9bfd9dd977178f2b6ca7337d6385540
+31 verbose tar unpack /var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0
+32 silly lockFile 3ad0979a-orm-phaser-tarball-v2-1-0-unpack tar:///var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0-unpack
+33 verbose lock tar:///var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0-unpack /Users/DEV/.npm/3ad0979a-orm-phaser-tarball-v2-1-0-unpack.lock
+34 silly lockFile 2d6619c2-hotonstorm-phaser-tarball-v2-1-0 tar:///var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0
+35 verbose lock tar:///var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0 /Users/DEV/.npm/2d6619c2-hotonstorm-phaser-tarball-v2-1-0.lock
+36 verbose gentlyRm vacuuming /var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0-unpack
+37 silly gunzTarPerm modes [ '755', '644' ]
+38 silly gunzTarPerm extractEntry
+39 silly gunzTarPerm modified mode [ '', 509, 493 ]
+40 silly gunzTarPerm extractEntry .editorconfig
+41 silly gunzTarPerm modified mode [ '.editorconfig', 436, 420 ]
+42 silly gunzTarPerm extractEntry .gitignore
+43 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+44 silly gunzTarPerm extractEntry .jshintrc
+45 silly gunzTarPerm modified mode [ '.jshintrc', 436, 420 ]
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+48 silly gunzTarPerm extractEntry .travis.yml
+49 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+50 silly gunzTarPerm extractEntry CHANGELOG.md
+51 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+52 silly gunzTarPerm extractEntry CONTRIBUTING.md
+53 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 420 ]
+54 silly gunzTarPerm extractEntry Gruntfile.js
+55 silly gunzTarPerm modified mode [ 'Gruntfile.js', 436, 420 ]
+56 silly gunzTarPerm extractEntry README.md
+57 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+58 silly gunzTarPerm extractEntry bower.json
+59 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
+60 silly gunzTarPerm extractEntry build/
+61 silly gunzTarPerm modified mode [ 'build/', 509, 493 ]
+62 silly gunzTarPerm extractEntry build/config.php
+63 silly gunzTarPerm modified mode [ 'build/config.php', 436, 420 ]
+64 silly gunzTarPerm extractEntry build/custom/
+65 silly gunzTarPerm modified mode [ 'build/custom/', 509, 493 ]
+66 silly gunzTarPerm extractEntry build/custom/ninja.js
+67 silly gunzTarPerm modified mode [ 'build/custom/ninja.js', 436, 420 ]
+68 silly gunzTarPerm extractEntry build/custom/ninja.min.js
+69 silly gunzTarPerm modified mode [ 'build/custom/ninja.min.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry build/custom/p2.js
+71 silly gunzTarPerm modified mode [ 'build/custom/p2.js', 436, 420 ]
+72 silly gunzTarPerm extractEntry build/custom/p2.min.js
+73 silly gunzTarPerm modified mode [ 'build/custom/p2.min.js', 436, 420 ]
+74 silly gunzTarPerm extractEntry build/custom/phaser-arcade-physics.js
+75 silly gunzTarPerm modified mode [ 'build/custom/phaser-arcade-physics.js', 436, 420 ]
+76 silly gunzTarPerm extractEntry build/custom/phaser-arcade-physics.min.js
+77 silly gunzTarPerm modified mode [ 'build/custom/phaser-arcade-physics.min.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry build/custom/phaser-ninja-physics.js
+79 silly gunzTarPerm modified mode [ 'build/custom/phaser-ninja-physics.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry build/custom/phaser-ninja-physics.min.js
+81 silly gunzTarPerm modified mode [ 'build/custom/phaser-ninja-physics.min.js', 436, 420 ]
+82 silly gunzTarPerm extractEntry build/custom/phaser-no-libs.js
+83 silly gunzTarPerm modified mode [ 'build/custom/phaser-no-libs.js', 436, 420 ]
+84 silly gunzTarPerm extractEntry build/custom/phaser-no-libs.min.js
+85 silly gunzTarPerm modified mode [ 'build/custom/phaser-no-libs.min.js', 436, 420 ]
+86 silly gunzTarPerm extractEntry build/custom/phaser-no-physics.js
+87 silly gunzTarPerm modified mode [ 'build/custom/phaser-no-physics.js', 436, 420 ]
+88 silly gunzTarPerm extractEntry build/custom/phaser-no-physics.min.js
+89 silly gunzTarPerm modified mode [ 'build/custom/phaser-no-physics.min.js', 436, 420 ]
+90 silly gunzTarPerm extractEntry build/custom/pixi.js
+91 silly gunzTarPerm modified mode [ 'build/custom/pixi.js', 436, 420 ]
+92 silly gunzTarPerm extractEntry build/custom/pixi.min.js
+93 silly gunzTarPerm modified mode [ 'build/custom/pixi.min.js', 436, 420 ]
+94 silly gunzTarPerm extractEntry build/phaser.d.ts
+95 silly gunzTarPerm modified mode [ 'build/phaser.d.ts', 436, 420 ]
+96 silly gunzTarPerm extractEntry build/phaser.js
+97 silly gunzTarPerm modified mode [ 'build/phaser.js', 436, 420 ]
+98 silly gunzTarPerm extractEntry build/phaser.map
+99 silly gunzTarPerm modified mode [ 'build/phaser.map', 436, 420 ]
+100 silly gunzTarPerm extractEntry build/phaser.min.js
+101 silly gunzTarPerm modified mode [ 'build/phaser.min.js', 436, 420 ]
+102 silly gunzTarPerm extractEntry docgen/
+103 silly gunzTarPerm modified mode [ 'docgen/', 509, 493 ]
+104 silly gunzTarPerm extractEntry docgen/gen.php
+105 silly gunzTarPerm modified mode [ 'docgen/gen.php', 436, 420 ]
+106 silly gunzTarPerm extractEntry docgen/json.php
+107 silly gunzTarPerm modified mode [ 'docgen/json.php', 436, 420 ]
+108 silly gunzTarPerm extractEntry docgen/output.php
+109 silly gunzTarPerm modified mode [ 'docgen/output.php', 436, 420 ]
+110 silly gunzTarPerm extractEntry docgen/process.php
+111 silly gunzTarPerm modified mode [ 'docgen/process.php', 436, 420 ]
+112 silly gunzTarPerm extractEntry docgen/project/
+113 silly gunzTarPerm modified mode [ 'docgen/project/', 509, 493 ]
+114 silly gunzTarPerm extractEntry docgen/project/Phaser Doc Gen.dsk
+115 silly gunzTarPerm modified mode [ 'docgen/project/Phaser Doc Gen.dsk', 436, 420 ]
+116 silly gunzTarPerm extractEntry docgen/project/Phaser Doc Gen.ppd
+117 silly gunzTarPerm modified mode [ 'docgen/project/Phaser Doc Gen.ppd', 436, 420 ]
+118 silly gunzTarPerm extractEntry docgen/project/Phaser Doc Gen.ppj
+119 silly gunzTarPerm modified mode [ 'docgen/project/Phaser Doc Gen.ppj', 436, 420 ]
+120 silly gunzTarPerm extractEntry docgen/project/Phaser Doc Gen.ppw
+121 silly gunzTarPerm modified mode [ 'docgen/project/Phaser Doc Gen.ppw', 436, 420 ]
+122 silly gunzTarPerm extractEntry docgen/project/Phaser Doc Gen.ppx
+123 silly gunzTarPerm modified mode [ 'docgen/project/Phaser Doc Gen.ppx', 436, 420 ]
+124 silly gunzTarPerm extractEntry docgen/src/
+125 silly gunzTarPerm modified mode [ 'docgen/src/', 509, 493 ]
+126 silly gunzTarPerm extractEntry docgen/src/Block.php
+127 silly gunzTarPerm modified mode [ 'docgen/src/Block.php', 436, 420 ]
+128 silly gunzTarPerm extractEntry docgen/src/ClassDesc.php
+129 silly gunzTarPerm modified mode [ 'docgen/src/ClassDesc.php', 436, 420 ]
+130 silly gunzTarPerm extractEntry docgen/src/Constant.php
+131 silly gunzTarPerm modified mode [ 'docgen/src/Constant.php', 436, 420 ]
+132 silly gunzTarPerm extractEntry docgen/src/Method.php
+133 silly gunzTarPerm modified mode [ 'docgen/src/Method.php', 436, 420 ]
+134 silly gunzTarPerm extractEntry docgen/src/Parameter.php
+135 silly gunzTarPerm modified mode [ 'docgen/src/Parameter.php', 436, 420 ]
+136 silly gunzTarPerm extractEntry docgen/src/Processor.php
+137 silly gunzTarPerm modified mode [ 'docgen/src/Processor.php', 436, 420 ]
+138 silly gunzTarPerm extractEntry docgen/src/Property.php
+139 silly gunzTarPerm modified mode [ 'docgen/src/Property.php', 436, 420 ]
+140 silly gunzTarPerm extractEntry docgen/src/ReturnType.php
+141 silly gunzTarPerm modified mode [ 'docgen/src/ReturnType.php', 436, 420 ]
+142 silly gunzTarPerm extractEntry docgen/view.php
+143 silly gunzTarPerm modified mode [ 'docgen/view.php', 436, 420 ]
+144 silly gunzTarPerm extractEntry docs/
+145 silly gunzTarPerm modified mode [ 'docs/', 509, 493 ]
+146 silly gunzTarPerm extractEntry docs/AABB.js.html
+147 silly gunzTarPerm modified mode [ 'docs/AABB.js.html', 436, 420 ]
+148 silly gunzTarPerm extractEntry docs/Animation.js.html
+149 silly gunzTarPerm modified mode [ 'docs/Animation.js.html', 436, 420 ]
+150 silly gunzTarPerm extractEntry docs/AnimationManager.js.html
+151 silly gunzTarPerm modified mode [ 'docs/AnimationManager.js.html', 436, 420 ]
+152 silly gunzTarPerm extractEntry docs/AnimationParser.js.html
+153 silly gunzTarPerm modified mode [ 'docs/AnimationParser.js.html', 436, 420 ]
+154 silly gunzTarPerm extractEntry docs/ArrayList.js.html
+155 silly gunzTarPerm modified mode [ 'docs/ArrayList.js.html', 436, 420 ]
+156 silly gunzTarPerm extractEntry docs/BitmapData.js.html
+157 silly gunzTarPerm modified mode [ 'docs/BitmapData.js.html', 436, 420 ]
+158 silly gunzTarPerm extractEntry docs/BitmapText.js.html
+159 silly gunzTarPerm modified mode [ 'docs/BitmapText.js.html', 436, 420 ]
+160 silly gunzTarPerm extractEntry docs/Body.js.html
+161 silly gunzTarPerm modified mode [ 'docs/Body.js.html', 436, 420 ]
+162 silly gunzTarPerm extractEntry docs/Body.js_.html
+163 silly gunzTarPerm modified mode [ 'docs/Body.js_.html', 436, 420 ]
+164 silly gunzTarPerm extractEntry docs/Body.js__.html
+165 silly gunzTarPerm modified mode [ 'docs/Body.js__.html', 436, 420 ]
+166 silly gunzTarPerm extractEntry docs/BodyDebug.js.html
+167 silly gunzTarPerm modified mode [ 'docs/BodyDebug.js.html', 436, 420 ]
+168 silly gunzTarPerm extractEntry docs/Button.js.html
+169 silly gunzTarPerm modified mode [ 'docs/Button.js.html', 436, 420 ]
+170 silly gunzTarPerm extractEntry docs/Cache.js.html
+171 silly gunzTarPerm modified mode [ 'docs/Cache.js.html', 436, 420 ]
+172 silly gunzTarPerm extractEntry docs/Camera.js.html
+173 silly gunzTarPerm modified mode [ 'docs/Camera.js.html', 436, 420 ]
+174 silly gunzTarPerm extractEntry docs/Canvas.js.html
+175 silly gunzTarPerm modified mode [ 'docs/Canvas.js.html', 436, 420 ]
+176 silly gunzTarPerm extractEntry docs/Circle.js.html
+177 silly gunzTarPerm modified mode [ 'docs/Circle.js.html', 436, 420 ]
+178 silly gunzTarPerm extractEntry docs/Circle.js_.html
+179 silly gunzTarPerm modified mode [ 'docs/Circle.js_.html', 436, 420 ]
+180 silly gunzTarPerm extractEntry docs/CollisionGroup.js.html
+181 silly gunzTarPerm modified mode [ 'docs/CollisionGroup.js.html', 436, 420 ]
+182 silly gunzTarPerm extractEntry docs/Color.js.html
+183 silly gunzTarPerm modified mode [ 'docs/Color.js.html', 436, 420 ]
+184 silly gunzTarPerm extractEntry docs/ContactMaterial.js.html
+185 silly gunzTarPerm modified mode [ 'docs/ContactMaterial.js.html', 436, 420 ]
+186 silly gunzTarPerm extractEntry docs/Debug.js.html
+187 silly gunzTarPerm modified mode [ 'docs/Debug.js.html', 436, 420 ]
+188 silly gunzTarPerm extractEntry docs/Device.js.html
+189 silly gunzTarPerm modified mode [ 'docs/Device.js.html', 436, 420 ]
+190 silly gunzTarPerm extractEntry docs/DistanceConstraint.js.html
+191 silly gunzTarPerm modified mode [ 'docs/DistanceConstraint.js.html', 436, 420 ]
+192 silly gunzTarPerm extractEntry docs/Easing.js.html
+193 silly gunzTarPerm modified mode [ 'docs/Easing.js.html', 436, 420 ]
+194 silly gunzTarPerm extractEntry docs/Ellipse.js.html
+195 silly gunzTarPerm modified mode [ 'docs/Ellipse.js.html', 436, 420 ]
+196 silly gunzTarPerm extractEntry docs/Emitter.js.html
+197 silly gunzTarPerm modified mode [ 'docs/Emitter.js.html', 436, 420 ]
+198 silly gunzTarPerm extractEntry docs/Events.js.html
+199 silly gunzTarPerm modified mode [ 'docs/Events.js.html', 436, 420 ]
+200 silly gunzTarPerm extractEntry docs/Filter.js.html
+201 silly gunzTarPerm modified mode [ 'docs/Filter.js.html', 436, 420 ]
+202 silly gunzTarPerm extractEntry docs/FixtureList.js.html
+203 silly gunzTarPerm modified mode [ 'docs/FixtureList.js.html', 436, 420 ]
+204 silly gunzTarPerm extractEntry docs/FlexGrid.js.html
+205 silly gunzTarPerm modified mode [ 'docs/FlexGrid.js.html', 436, 420 ]
+206 silly gunzTarPerm extractEntry docs/FlexLayer.js.html
+207 silly gunzTarPerm modified mode [ 'docs/FlexLayer.js.html', 436, 420 ]
+208 silly gunzTarPerm extractEntry docs/Frame.js.html
+209 silly gunzTarPerm modified mode [ 'docs/Frame.js.html', 436, 420 ]
+210 silly gunzTarPerm extractEntry docs/FrameData.js.html
+211 silly gunzTarPerm modified mode [ 'docs/FrameData.js.html', 436, 420 ]
+212 silly gunzTarPerm extractEntry docs/Game.js.html
+213 silly gunzTarPerm modified mode [ 'docs/Game.js.html', 436, 420 ]
+214 silly gunzTarPerm extractEntry docs/GameObjectCreator.js.html
+215 silly gunzTarPerm modified mode [ 'docs/GameObjectCreator.js.html', 436, 420 ]
+216 silly gunzTarPerm extractEntry docs/GameObjectFactory.js.html
+217 silly gunzTarPerm modified mode [ 'docs/GameObjectFactory.js.html', 436, 420 ]
+218 silly gunzTarPerm extractEntry docs/Gamepad.js.html
+219 silly gunzTarPerm modified mode [ 'docs/Gamepad.js.html', 436, 420 ]
+220 silly gunzTarPerm extractEntry docs/GamepadButton.js.html
+221 silly gunzTarPerm modified mode [ 'docs/GamepadButton.js.html', 436, 420 ]
+222 silly gunzTarPerm extractEntry docs/GearConstraint.js.html
+223 silly gunzTarPerm modified mode [ 'docs/GearConstraint.js.html', 436, 420 ]
+224 silly gunzTarPerm extractEntry docs/Graphics.js.html
+225 silly gunzTarPerm modified mode [ 'docs/Graphics.js.html', 436, 420 ]
+226 silly gunzTarPerm extractEntry docs/Group.js.html
+227 silly gunzTarPerm modified mode [ 'docs/Group.js.html', 436, 420 ]
+228 silly gunzTarPerm extractEntry docs/Image.js.html
+229 silly gunzTarPerm modified mode [ 'docs/Image.js.html', 436, 420 ]
+230 silly gunzTarPerm extractEntry docs/Input.js.html
+231 silly gunzTarPerm modified mode [ 'docs/Input.js.html', 436, 420 ]
+232 silly gunzTarPerm extractEntry docs/InputHandler.js.html
+233 silly gunzTarPerm modified mode [ 'docs/InputHandler.js.html', 436, 420 ]
+234 silly gunzTarPerm extractEntry docs/InversePointProxy.js.html
+235 silly gunzTarPerm modified mode [ 'docs/InversePointProxy.js.html', 436, 420 ]
+236 silly gunzTarPerm extractEntry docs/Key.js.html
+237 silly gunzTarPerm modified mode [ 'docs/Key.js.html', 436, 420 ]
+238 silly gunzTarPerm extractEntry docs/Keyboard.js.html
+239 silly gunzTarPerm modified mode [ 'docs/Keyboard.js.html', 436, 420 ]
+240 silly gunzTarPerm extractEntry docs/Line.js.html
+241 silly gunzTarPerm modified mode [ 'docs/Line.js.html', 436, 420 ]
+242 silly gunzTarPerm extractEntry docs/LinkedList.js.html
+243 silly gunzTarPerm modified mode [ 'docs/LinkedList.js.html', 436, 420 ]
+244 silly gunzTarPerm extractEntry docs/Loader.js.html
+245 silly gunzTarPerm modified mode [ 'docs/Loader.js.html', 436, 420 ]
+246 silly gunzTarPerm extractEntry docs/LoaderParser.js.html
+247 silly gunzTarPerm modified mode [ 'docs/LoaderParser.js.html', 436, 420 ]
+248 silly gunzTarPerm extractEntry docs/LockConstraint.js.html
+249 silly gunzTarPerm modified mode [ 'docs/LockConstraint.js.html', 436, 420 ]
+250 silly gunzTarPerm extractEntry docs/MSPointer.js.html
+251 silly gunzTarPerm modified mode [ 'docs/MSPointer.js.html', 436, 420 ]
+252 silly gunzTarPerm extractEntry docs/Material.js.html
+253 silly gunzTarPerm modified mode [ 'docs/Material.js.html', 436, 420 ]
+254 silly gunzTarPerm extractEntry docs/Math.js.html
+255 silly gunzTarPerm modified mode [ 'docs/Math.js.html', 436, 420 ]
+256 silly gunzTarPerm extractEntry docs/Mouse.js.html
+257 silly gunzTarPerm modified mode [ 'docs/Mouse.js.html', 436, 420 ]
+258 silly gunzTarPerm extractEntry docs/Net.js.html
+259 silly gunzTarPerm modified mode [ 'docs/Net.js.html', 436, 420 ]
+260 silly gunzTarPerm extractEntry docs/Particle.js.html
+261 silly gunzTarPerm modified mode [ 'docs/Particle.js.html', 436, 420 ]
+262 silly gunzTarPerm extractEntry docs/Particles.js.html
+263 silly gunzTarPerm modified mode [ 'docs/Particles.js.html', 436, 420 ]
+264 silly gunzTarPerm extractEntry docs/Phaser.Animation.html
+265 silly gunzTarPerm modified mode [ 'docs/Phaser.Animation.html', 436, 420 ]
+266 silly gunzTarPerm extractEntry docs/Phaser.AnimationManager.html
+267 silly gunzTarPerm modified mode [ 'docs/Phaser.AnimationManager.html', 436, 420 ]
+268 silly gunzTarPerm extractEntry docs/Phaser.AnimationParser.html
+269 silly gunzTarPerm modified mode [ 'docs/Phaser.AnimationParser.html', 436, 420 ]
+270 silly gunzTarPerm extractEntry docs/Phaser.ArrayList.html
+271 silly gunzTarPerm modified mode [ 'docs/Phaser.ArrayList.html', 436, 420 ]
+272 silly gunzTarPerm extractEntry docs/Phaser.BitmapData.html
+273 silly gunzTarPerm modified mode [ 'docs/Phaser.BitmapData.html', 436, 420 ]
+274 silly gunzTarPerm extractEntry docs/Phaser.BitmapText.html
+275 silly gunzTarPerm modified mode [ 'docs/Phaser.BitmapText.html', 436, 420 ]
+276 silly gunzTarPerm extractEntry docs/Phaser.Button.html
+277 silly gunzTarPerm modified mode [ 'docs/Phaser.Button.html', 436, 420 ]
+278 silly gunzTarPerm extractEntry docs/Phaser.Cache.html
+279 silly gunzTarPerm modified mode [ 'docs/Phaser.Cache.html', 436, 420 ]
+280 silly gunzTarPerm extractEntry docs/Phaser.Camera.html
+281 silly gunzTarPerm modified mode [ 'docs/Phaser.Camera.html', 436, 420 ]
+282 silly gunzTarPerm extractEntry docs/Phaser.Canvas.html
+283 silly gunzTarPerm modified mode [ 'docs/Phaser.Canvas.html', 436, 420 ]
+284 silly gunzTarPerm extractEntry docs/Phaser.Circle.html
+285 silly gunzTarPerm modified mode [ 'docs/Phaser.Circle.html', 436, 420 ]
+286 silly gunzTarPerm extractEntry docs/Phaser.Color.html
+287 silly gunzTarPerm modified mode [ 'docs/Phaser.Color.html', 436, 420 ]
+288 silly gunzTarPerm extractEntry docs/Phaser.Device.html
+289 silly gunzTarPerm modified mode [ 'docs/Phaser.Device.html', 436, 420 ]
+290 silly gunzTarPerm extractEntry docs/Phaser.Easing.Back.html
+291 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Back.html', 436, 420 ]
+292 silly gunzTarPerm extractEntry docs/Phaser.Easing.Bounce.html
+293 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Bounce.html', 436, 420 ]
+294 silly gunzTarPerm extractEntry docs/Phaser.Easing.Circular.html
+295 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Circular.html', 436, 420 ]
+296 silly gunzTarPerm extractEntry docs/Phaser.Easing.Cubic.html
+297 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Cubic.html', 436, 420 ]
+298 silly gunzTarPerm extractEntry docs/Phaser.Easing.Elastic.html
+299 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Elastic.html', 436, 420 ]
+300 silly gunzTarPerm extractEntry docs/Phaser.Easing.Exponential.html
+301 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Exponential.html', 436, 420 ]
+302 silly gunzTarPerm extractEntry docs/Phaser.Easing.Linear.html
+303 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Linear.html', 436, 420 ]
+304 silly gunzTarPerm extractEntry docs/Phaser.Easing.Quadratic.html
+305 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Quadratic.html', 436, 420 ]
+306 silly gunzTarPerm extractEntry docs/Phaser.Easing.Quartic.html
+307 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Quartic.html', 436, 420 ]
+308 silly gunzTarPerm extractEntry docs/Phaser.Easing.Quintic.html
+309 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Quintic.html', 436, 420 ]
+310 silly gunzTarPerm extractEntry docs/Phaser.Easing.Sinusoidal.html
+311 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.Sinusoidal.html', 436, 420 ]
+312 silly gunzTarPerm extractEntry docs/Phaser.Easing.html
+313 silly gunzTarPerm modified mode [ 'docs/Phaser.Easing.html', 436, 420 ]
+314 silly gunzTarPerm extractEntry docs/Phaser.Ellipse.html
+315 silly gunzTarPerm modified mode [ 'docs/Phaser.Ellipse.html', 436, 420 ]
+316 silly gunzTarPerm extractEntry docs/Phaser.Events.html
+317 silly gunzTarPerm modified mode [ 'docs/Phaser.Events.html', 436, 420 ]
+318 silly gunzTarPerm extractEntry docs/Phaser.Filter.html
+319 silly gunzTarPerm modified mode [ 'docs/Phaser.Filter.html', 436, 420 ]
+320 silly gunzTarPerm extractEntry docs/Phaser.FlexGrid.html
+321 silly gunzTarPerm modified mode [ 'docs/Phaser.FlexGrid.html', 436, 420 ]
+322 silly gunzTarPerm extractEntry docs/Phaser.FlexLayer.html
+323 silly gunzTarPerm modified mode [ 'docs/Phaser.FlexLayer.html', 436, 420 ]
+324 silly gunzTarPerm extractEntry docs/Phaser.Frame.html
+325 silly gunzTarPerm modified mode [ 'docs/Phaser.Frame.html', 436, 420 ]
+326 silly gunzTarPerm extractEntry docs/Phaser.FrameData.html
+327 silly gunzTarPerm modified mode [ 'docs/Phaser.FrameData.html', 436, 420 ]
+328 silly gunzTarPerm extractEntry docs/Phaser.Game.html
+329 silly gunzTarPerm modified mode [ 'docs/Phaser.Game.html', 436, 420 ]
+330 silly gunzTarPerm extractEntry docs/Phaser.GameObjectCreator.html
+331 silly gunzTarPerm modified mode [ 'docs/Phaser.GameObjectCreator.html', 436, 420 ]
+332 silly gunzTarPerm extractEntry docs/Phaser.GameObjectFactory.html
+333 silly gunzTarPerm modified mode [ 'docs/Phaser.GameObjectFactory.html', 436, 420 ]
+334 silly gunzTarPerm extractEntry docs/Phaser.Gamepad.html
+335 silly gunzTarPerm modified mode [ 'docs/Phaser.Gamepad.html', 436, 420 ]
+336 silly gunzTarPerm extractEntry docs/Phaser.GamepadButton.html
+337 silly gunzTarPerm modified mode [ 'docs/Phaser.GamepadButton.html', 436, 420 ]
+338 silly gunzTarPerm extractEntry docs/Phaser.Graphics.html
+339 silly gunzTarPerm modified mode [ 'docs/Phaser.Graphics.html', 436, 420 ]
+340 silly gunzTarPerm extractEntry docs/Phaser.Group.html
+341 silly gunzTarPerm modified mode [ 'docs/Phaser.Group.html', 436, 420 ]
+342 silly gunzTarPerm extractEntry docs/Phaser.Image.html
+343 silly gunzTarPerm modified mode [ 'docs/Phaser.Image.html', 436, 420 ]
+344 silly gunzTarPerm extractEntry docs/Phaser.Input.html
+345 silly gunzTarPerm modified mode [ 'docs/Phaser.Input.html', 436, 420 ]
+346 silly gunzTarPerm extractEntry docs/Phaser.InputHandler.html
+347 silly gunzTarPerm modified mode [ 'docs/Phaser.InputHandler.html', 436, 420 ]
+348 silly gunzTarPerm extractEntry docs/Phaser.Key.html
+349 silly gunzTarPerm modified mode [ 'docs/Phaser.Key.html', 436, 420 ]
+350 silly gunzTarPerm extractEntry docs/Phaser.Keyboard.html
+351 silly gunzTarPerm modified mode [ 'docs/Phaser.Keyboard.html', 436, 420 ]
+352 silly gunzTarPerm extractEntry docs/Phaser.Line.html
+353 silly gunzTarPerm modified mode [ 'docs/Phaser.Line.html', 436, 420 ]
+354 silly gunzTarPerm extractEntry docs/Phaser.LinkedList.html
+355 silly gunzTarPerm modified mode [ 'docs/Phaser.LinkedList.html', 436, 420 ]
+356 silly gunzTarPerm extractEntry docs/Phaser.Loader.html
+357 silly gunzTarPerm modified mode [ 'docs/Phaser.Loader.html', 436, 420 ]
+358 silly gunzTarPerm extractEntry docs/Phaser.LoaderParser.html
+359 silly gunzTarPerm modified mode [ 'docs/Phaser.LoaderParser.html', 436, 420 ]
+360 silly gunzTarPerm extractEntry docs/Phaser.MSPointer.html
+361 silly gunzTarPerm modified mode [ 'docs/Phaser.MSPointer.html', 436, 420 ]
+362 silly gunzTarPerm extractEntry docs/Phaser.Math.html
+363 silly gunzTarPerm modified mode [ 'docs/Phaser.Math.html', 436, 420 ]
+364 silly gunzTarPerm extractEntry docs/Phaser.Mouse.html
+365 silly gunzTarPerm modified mode [ 'docs/Phaser.Mouse.html', 436, 420 ]
+366 silly gunzTarPerm extractEntry docs/Phaser.Net.html
+367 silly gunzTarPerm modified mode [ 'docs/Phaser.Net.html', 436, 420 ]
+368 silly gunzTarPerm extractEntry docs/Phaser.Particle.html
+369 silly gunzTarPerm modified mode [ 'docs/Phaser.Particle.html', 436, 420 ]
+370 silly gunzTarPerm extractEntry docs/Phaser.Particles.Arcade.Emitter.html
+371 silly gunzTarPerm modified mode [ 'docs/Phaser.Particles.Arcade.Emitter.html', 436, 420 ]
+372 silly gunzTarPerm extractEntry docs/Phaser.Particles.html
+373 silly gunzTarPerm modified mode [ 'docs/Phaser.Particles.html', 436, 420 ]
+374 silly gunzTarPerm extractEntry docs/Phaser.Physics.Arcade.Body.html
+375 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.Arcade.Body.html', 436, 420 ]
+376 silly gunzTarPerm extractEntry docs/Phaser.Physics.Arcade.html
+377 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.Arcade.html', 436, 420 ]
+378 silly gunzTarPerm extractEntry docs/Phaser.Physics.Ninja.AABB.html
+379 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.Ninja.AABB.html', 436, 420 ]
+380 silly gunzTarPerm extractEntry docs/Phaser.Physics.Ninja.Body.html
+381 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.Ninja.Body.html', 436, 420 ]
+382 silly gunzTarPerm extractEntry docs/Phaser.Physics.Ninja.Circle.html
+383 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.Ninja.Circle.html', 436, 420 ]
+384 silly gunzTarPerm extractEntry docs/Phaser.Physics.Ninja.Tile.html
+385 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.Ninja.Tile.html', 436, 420 ]
+386 silly gunzTarPerm extractEntry docs/Phaser.Physics.Ninja.html
+387 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.Ninja.html', 436, 420 ]
+388 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.Body.html
+389 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.Body.html', 436, 420 ]
+390 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.BodyDebug.html
+391 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.BodyDebug.html', 436, 420 ]
+392 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.CollisionGroup.html
+393 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.CollisionGroup.html', 436, 420 ]
+394 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.ContactMaterial.html
+395 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.ContactMaterial.html', 436, 420 ]
+396 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.DistanceConstraint.html
+397 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.DistanceConstraint.html', 436, 420 ]
+398 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.FixtureList.html
+399 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.FixtureList.html', 436, 420 ]
+400 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.GearConstraint.html
+401 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.GearConstraint.html', 436, 420 ]
+402 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.InversePointProxy.html
+403 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.InversePointProxy.html', 436, 420 ]
+404 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.LockConstraint.html
+405 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.LockConstraint.html', 436, 420 ]
+406 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.Material.html
+407 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.Material.html', 436, 420 ]
+408 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.PointProxy.html
+409 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.PointProxy.html', 436, 420 ]
+410 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.PrismaticConstraint.html
+411 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.PrismaticConstraint.html', 436, 420 ]
+412 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.RevoluteConstraint.html
+413 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.RevoluteConstraint.html', 436, 420 ]
+414 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.RotationalSpring.html
+415 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.RotationalSpring.html', 436, 420 ]
+416 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.Spring.html
+417 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.Spring.html', 436, 420 ]
+418 silly gunzTarPerm extractEntry docs/Phaser.Physics.P2.html
+419 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.P2.html', 436, 420 ]
+420 silly gunzTarPerm extractEntry docs/Phaser.Physics.html
+421 silly gunzTarPerm modified mode [ 'docs/Phaser.Physics.html', 436, 420 ]
+422 silly gunzTarPerm extractEntry docs/Phaser.Plugin.html
+423 silly gunzTarPerm modified mode [ 'docs/Phaser.Plugin.html', 436, 420 ]
+424 silly gunzTarPerm extractEntry docs/Phaser.PluginManager.html
+425 silly gunzTarPerm modified mode [ 'docs/Phaser.PluginManager.html', 436, 420 ]
+426 silly gunzTarPerm extractEntry docs/Phaser.Point.html
+427 silly gunzTarPerm modified mode [ 'docs/Phaser.Point.html', 436, 420 ]
+428 silly gunzTarPerm extractEntry docs/Phaser.Pointer.html
+429 silly gunzTarPerm modified mode [ 'docs/Phaser.Pointer.html', 436, 420 ]
+430 silly gunzTarPerm extractEntry docs/Phaser.Polygon.html
+431 silly gunzTarPerm modified mode [ 'docs/Phaser.Polygon.html', 436, 420 ]
+432 silly gunzTarPerm extractEntry docs/Phaser.QuadTree.html
+433 silly gunzTarPerm modified mode [ 'docs/Phaser.QuadTree.html', 436, 420 ]
+434 silly gunzTarPerm extractEntry docs/Phaser.RandomDataGenerator.html
+435 silly gunzTarPerm modified mode [ 'docs/Phaser.RandomDataGenerator.html', 436, 420 ]
+436 silly gunzTarPerm extractEntry docs/Phaser.Rectangle.html
+437 silly gunzTarPerm modified mode [ 'docs/Phaser.Rectangle.html', 436, 420 ]
+438 silly gunzTarPerm extractEntry docs/Phaser.RenderTexture.html
+439 silly gunzTarPerm modified mode [ 'docs/Phaser.RenderTexture.html', 436, 420 ]
+440 silly gunzTarPerm extractEntry docs/Phaser.RequestAnimationFrame.html
+441 silly gunzTarPerm modified mode [ 'docs/Phaser.RequestAnimationFrame.html', 436, 420 ]
+442 silly gunzTarPerm extractEntry docs/Phaser.RetroFont.html
+443 silly gunzTarPerm modified mode [ 'docs/Phaser.RetroFont.html', 436, 420 ]
+444 silly gunzTarPerm extractEntry docs/Phaser.Rope.html
+445 silly gunzTarPerm modified mode [ 'docs/Phaser.Rope.html', 436, 420 ]
+446 silly gunzTarPerm extractEntry docs/Phaser.ScaleManager.html
+447 silly gunzTarPerm modified mode [ 'docs/Phaser.ScaleManager.html', 436, 420 ]
+448 silly gunzTarPerm extractEntry docs/Phaser.Signal.html
+449 silly gunzTarPerm modified mode [ 'docs/Phaser.Signal.html', 436, 420 ]
+450 silly gunzTarPerm extractEntry docs/Phaser.SignalBinding.html
+451 silly gunzTarPerm modified mode [ 'docs/Phaser.SignalBinding.html', 436, 420 ]
+452 silly gunzTarPerm extractEntry docs/Phaser.SinglePad.html
+453 silly gunzTarPerm modified mode [ 'docs/Phaser.SinglePad.html', 436, 420 ]
+454 silly gunzTarPerm extractEntry docs/Phaser.Sound.html
+455 silly gunzTarPerm modified mode [ 'docs/Phaser.Sound.html', 436, 420 ]
+456 silly gunzTarPerm extractEntry docs/Phaser.SoundManager.html
+457 silly gunzTarPerm modified mode [ 'docs/Phaser.SoundManager.html', 436, 420 ]
+458 silly gunzTarPerm extractEntry docs/Phaser.Sprite.html
+459 silly gunzTarPerm modified mode [ 'docs/Phaser.Sprite.html', 436, 420 ]
+460 silly gunzTarPerm extractEntry docs/Phaser.SpriteBatch.html
+461 silly gunzTarPerm modified mode [ 'docs/Phaser.SpriteBatch.html', 436, 420 ]
+462 silly gunzTarPerm extractEntry docs/Phaser.Stage.html
+463 silly gunzTarPerm modified mode [ 'docs/Phaser.Stage.html', 436, 420 ]
+464 silly gunzTarPerm extractEntry docs/Phaser.State.html
+465 silly gunzTarPerm modified mode [ 'docs/Phaser.State.html', 436, 420 ]
+466 silly gunzTarPerm extractEntry docs/Phaser.StateManager.html
+467 silly gunzTarPerm modified mode [ 'docs/Phaser.StateManager.html', 436, 420 ]
+468 silly gunzTarPerm extractEntry docs/Phaser.Text.html
+469 silly gunzTarPerm modified mode [ 'docs/Phaser.Text.html', 436, 420 ]
+470 silly gunzTarPerm extractEntry docs/Phaser.Tile.html
+471 silly gunzTarPerm modified mode [ 'docs/Phaser.Tile.html', 436, 420 ]
+472 silly gunzTarPerm extractEntry docs/Phaser.TileSprite.html
+473 silly gunzTarPerm modified mode [ 'docs/Phaser.TileSprite.html', 436, 420 ]
+474 silly gunzTarPerm extractEntry docs/Phaser.Tilemap.html
+475 silly gunzTarPerm modified mode [ 'docs/Phaser.Tilemap.html', 436, 420 ]
+476 silly gunzTarPerm extractEntry docs/Phaser.TilemapLayer.html
+477 silly gunzTarPerm modified mode [ 'docs/Phaser.TilemapLayer.html', 436, 420 ]
+478 silly gunzTarPerm extractEntry docs/Phaser.TilemapParser.html
+479 silly gunzTarPerm modified mode [ 'docs/Phaser.TilemapParser.html', 436, 420 ]
+480 silly gunzTarPerm extractEntry docs/Phaser.Tileset.html
+481 silly gunzTarPerm modified mode [ 'docs/Phaser.Tileset.html', 436, 420 ]
+482 silly gunzTarPerm extractEntry docs/Phaser.Time.html
+483 silly gunzTarPerm modified mode [ 'docs/Phaser.Time.html', 436, 420 ]
+484 silly gunzTarPerm extractEntry docs/Phaser.Timer.html
+485 silly gunzTarPerm modified mode [ 'docs/Phaser.Timer.html', 436, 420 ]
+486 silly gunzTarPerm extractEntry docs/Phaser.TimerEvent.html
+487 silly gunzTarPerm modified mode [ 'docs/Phaser.TimerEvent.html', 436, 420 ]
+488 silly gunzTarPerm extractEntry docs/Phaser.Touch.html
+489 silly gunzTarPerm modified mode [ 'docs/Phaser.Touch.html', 436, 420 ]
+490 silly gunzTarPerm extractEntry docs/Phaser.Tween.html
+491 silly gunzTarPerm modified mode [ 'docs/Phaser.Tween.html', 436, 420 ]
+492 silly gunzTarPerm extractEntry docs/Phaser.TweenManager.html
+493 silly gunzTarPerm modified mode [ 'docs/Phaser.TweenManager.html', 436, 420 ]
+494 silly gunzTarPerm extractEntry docs/Phaser.Utils.Debug.html
+495 silly gunzTarPerm modified mode [ 'docs/Phaser.Utils.Debug.html', 436, 420 ]
+496 silly gunzTarPerm extractEntry docs/Phaser.Utils.html
+497 silly gunzTarPerm modified mode [ 'docs/Phaser.Utils.html', 436, 420 ]
+498 silly gunzTarPerm extractEntry docs/Phaser.World.html
+499 silly gunzTarPerm modified mode [ 'docs/Phaser.World.html', 436, 420 ]
+500 silly gunzTarPerm extractEntry docs/Phaser.html
+501 silly gunzTarPerm modified mode [ 'docs/Phaser.html', 436, 420 ]
+502 silly gunzTarPerm extractEntry docs/Phaser.js.html
+503 silly gunzTarPerm modified mode [ 'docs/Phaser.js.html', 436, 420 ]
+504 silly gunzTarPerm extractEntry docs/Physics.js.html
+505 silly gunzTarPerm modified mode [ 'docs/Physics.js.html', 436, 420 ]
+506 silly gunzTarPerm extractEntry docs/Plugin.js.html
+507 silly gunzTarPerm modified mode [ 'docs/Plugin.js.html', 436, 420 ]
+508 silly gunzTarPerm extractEntry docs/PluginManager.js.html
+509 silly gunzTarPerm modified mode [ 'docs/PluginManager.js.html', 436, 420 ]
+510 silly gunzTarPerm extractEntry docs/Point.js.html
+511 silly gunzTarPerm modified mode [ 'docs/Point.js.html', 436, 420 ]
+512 silly gunzTarPerm extractEntry docs/PointProxy.js.html
+513 silly gunzTarPerm modified mode [ 'docs/PointProxy.js.html', 436, 420 ]
+514 silly gunzTarPerm extractEntry docs/Pointer.js.html
+515 silly gunzTarPerm modified mode [ 'docs/Pointer.js.html', 436, 420 ]
+516 silly gunzTarPerm extractEntry docs/Polygon.js.html
+517 silly gunzTarPerm modified mode [ 'docs/Polygon.js.html', 436, 420 ]
+518 silly gunzTarPerm extractEntry docs/PrismaticConstraint.js.html
+519 silly gunzTarPerm modified mode [ 'docs/PrismaticConstraint.js.html', 436, 420 ]
+520 silly gunzTarPerm extractEntry docs/QuadTree.js.html
+521 silly gunzTarPerm modified mode [ 'docs/QuadTree.js.html', 436, 420 ]
+522 silly gunzTarPerm extractEntry docs/RandomDataGenerator.js.html
+523 silly gunzTarPerm modified mode [ 'docs/RandomDataGenerator.js.html', 436, 420 ]
+524 silly gunzTarPerm extractEntry docs/Rectangle.js.html
+525 silly gunzTarPerm modified mode [ 'docs/Rectangle.js.html', 436, 420 ]
+526 silly gunzTarPerm extractEntry docs/RenderTexture.js.html
+527 silly gunzTarPerm modified mode [ 'docs/RenderTexture.js.html', 436, 420 ]
+528 silly gunzTarPerm extractEntry docs/RequestAnimationFrame.js.html
+529 silly gunzTarPerm modified mode [ 'docs/RequestAnimationFrame.js.html', 436, 420 ]
+530 silly gunzTarPerm extractEntry docs/RetroFont.js.html
+531 silly gunzTarPerm modified mode [ 'docs/RetroFont.js.html', 436, 420 ]
+532 silly gunzTarPerm extractEntry docs/RevoluteConstraint.js.html
+533 silly gunzTarPerm modified mode [ 'docs/RevoluteConstraint.js.html', 436, 420 ]
+534 silly gunzTarPerm extractEntry docs/Rope.js.html
+535 silly gunzTarPerm modified mode [ 'docs/Rope.js.html', 436, 420 ]
+536 silly gunzTarPerm extractEntry docs/RotationalSpring.js.html
+537 silly gunzTarPerm modified mode [ 'docs/RotationalSpring.js.html', 436, 420 ]
+538 silly gunzTarPerm extractEntry docs/ScaleManager.js.html
+539 silly gunzTarPerm modified mode [ 'docs/ScaleManager.js.html', 436, 420 ]
+540 silly gunzTarPerm extractEntry docs/Signal.js.html
+541 silly gunzTarPerm modified mode [ 'docs/Signal.js.html', 436, 420 ]
+542 silly gunzTarPerm extractEntry docs/SignalBinding.js.html
+543 silly gunzTarPerm modified mode [ 'docs/SignalBinding.js.html', 436, 420 ]
+544 silly gunzTarPerm extractEntry docs/SinglePad.js.html
+545 silly gunzTarPerm modified mode [ 'docs/SinglePad.js.html', 436, 420 ]
+546 silly gunzTarPerm extractEntry docs/Sound.js.html
+547 silly gunzTarPerm modified mode [ 'docs/Sound.js.html', 436, 420 ]
+548 silly gunzTarPerm extractEntry docs/SoundManager.js.html
+549 silly gunzTarPerm modified mode [ 'docs/SoundManager.js.html', 436, 420 ]
+550 silly gunzTarPerm extractEntry docs/Spring.js.html
+551 silly gunzTarPerm modified mode [ 'docs/Spring.js.html', 436, 420 ]
+552 silly gunzTarPerm extractEntry docs/Sprite.js.html
+553 silly gunzTarPerm modified mode [ 'docs/Sprite.js.html', 436, 420 ]
+554 silly gunzTarPerm extractEntry docs/SpriteBatch.js.html
+555 silly gunzTarPerm modified mode [ 'docs/SpriteBatch.js.html', 436, 420 ]
+556 silly gunzTarPerm extractEntry docs/Stage.js.html
+557 silly gunzTarPerm modified mode [ 'docs/Stage.js.html', 436, 420 ]
+558 silly gunzTarPerm extractEntry docs/State.js.html
+559 silly gunzTarPerm modified mode [ 'docs/State.js.html', 436, 420 ]
+560 silly gunzTarPerm extractEntry docs/StateManager.js.html
+561 silly gunzTarPerm modified mode [ 'docs/StateManager.js.html', 436, 420 ]
+562 silly gunzTarPerm extractEntry docs/Text.js.html
+563 silly gunzTarPerm modified mode [ 'docs/Text.js.html', 436, 420 ]
+564 silly gunzTarPerm extractEntry docs/Tile.js.html
+565 silly gunzTarPerm modified mode [ 'docs/Tile.js.html', 436, 420 ]
+566 silly gunzTarPerm extractEntry docs/Tile.js_.html
+567 silly gunzTarPerm modified mode [ 'docs/Tile.js_.html', 436, 420 ]
+568 silly gunzTarPerm extractEntry docs/TileSprite.js.html
+569 silly gunzTarPerm modified mode [ 'docs/TileSprite.js.html', 436, 420 ]
+570 silly gunzTarPerm extractEntry docs/Tilemap.js.html
+571 silly gunzTarPerm modified mode [ 'docs/Tilemap.js.html', 436, 420 ]
+572 silly gunzTarPerm extractEntry docs/TilemapLayer.js.html
+573 silly gunzTarPerm modified mode [ 'docs/TilemapLayer.js.html', 436, 420 ]
+574 silly gunzTarPerm extractEntry docs/TilemapParser.js.html
+575 silly gunzTarPerm modified mode [ 'docs/TilemapParser.js.html', 436, 420 ]
+576 silly gunzTarPerm extractEntry docs/Tileset.js.html
+577 silly gunzTarPerm modified mode [ 'docs/Tileset.js.html', 436, 420 ]
+578 silly gunzTarPerm extractEntry docs/Time.js.html
+579 silly gunzTarPerm modified mode [ 'docs/Time.js.html', 436, 420 ]
+580 silly gunzTarPerm extractEntry docs/Timer.js.html
+581 silly gunzTarPerm modified mode [ 'docs/Timer.js.html', 436, 420 ]
+582 silly gunzTarPerm extractEntry docs/TimerEvent.js.html
+583 silly gunzTarPerm modified mode [ 'docs/TimerEvent.js.html', 436, 420 ]
+584 silly gunzTarPerm extractEntry docs/Touch.js.html
+585 silly gunzTarPerm modified mode [ 'docs/Touch.js.html', 436, 420 ]
+586 silly gunzTarPerm extractEntry docs/Tween.js.html
+587 silly gunzTarPerm modified mode [ 'docs/Tween.js.html', 436, 420 ]
+588 silly gunzTarPerm extractEntry docs/TweenManager.js.html
+589 silly gunzTarPerm modified mode [ 'docs/TweenManager.js.html', 436, 420 ]
+590 silly gunzTarPerm extractEntry docs/Utils.js.html
+591 silly gunzTarPerm modified mode [ 'docs/Utils.js.html', 436, 420 ]
+592 silly gunzTarPerm extractEntry docs/World.js.html
+593 silly gunzTarPerm modified mode [ 'docs/World.js.html', 436, 420 ]
+594 silly gunzTarPerm extractEntry docs/World.js_.html
+595 silly gunzTarPerm modified mode [ 'docs/World.js_.html', 436, 420 ]
+596 silly gunzTarPerm extractEntry docs/World.js__.html
+597 silly gunzTarPerm modified mode [ 'docs/World.js__.html', 436, 420 ]
+598 silly gunzTarPerm extractEntry docs/World.js___.html
+599 silly gunzTarPerm modified mode [ 'docs/World.js___.html', 436, 420 ]
+600 silly gunzTarPerm extractEntry docs/build/
+601 silly gunzTarPerm modified mode [ 'docs/build/', 509, 493 ]
+602 silly gunzTarPerm extractEntry docs/build/build master.bat
+603 silly gunzTarPerm modified mode [ 'docs/build/build master.bat', 436, 420 ]
+604 silly gunzTarPerm extractEntry docs/build/conf.json
+605 silly gunzTarPerm modified mode [ 'docs/build/conf.json', 436, 420 ]
+606 silly gunzTarPerm extractEntry docs/build/docstrap-master/
+607 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/', 509, 493 ]
+608 silly gunzTarPerm extractEntry docs/build/docstrap-master/styles/
+609 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/styles/', 509, 493 ]
+610 silly gunzTarPerm extractEntry docs/build/docstrap-master/styles/bootswatch.less
+611 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/styles/bootswatch.less', 436, 420 ]
+612 silly gunzTarPerm extractEntry docs/build/docstrap-master/styles/main.less
+613 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/styles/main.less', 436, 420 ]
+614 silly gunzTarPerm extractEntry docs/build/docstrap-master/styles/variables.less
+615 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/styles/variables.less', 436, 420 ]
+616 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/
+617 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/', 509, 493 ]
+618 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/jsdoc.conf.json
+619 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/jsdoc.conf.json',
+619 silly gunzTarPerm   436,
+619 silly gunzTarPerm   420 ]
+620 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/publish.js
+621 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/publish.js', 436, 420 ]
+622 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/
+623 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/', 509, 493 ]
+624 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/img/
+625 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/img/', 509, 493 ]
+626 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/img/glyphicons-halflings-white.png
+627 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/img/glyphicons-halflings-white.png',
+627 silly gunzTarPerm   436,
+627 silly gunzTarPerm   420 ]
+628 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/img/glyphicons-halflings.png
+629 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/img/glyphicons-halflings.png',
+629 silly gunzTarPerm   436,
+629 silly gunzTarPerm   420 ]
+630 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/
+631 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/',
+631 silly gunzTarPerm   509,
+631 silly gunzTarPerm   493 ]
+632 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/URI.js
+633 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/URI.js',
+633 silly gunzTarPerm   436,
+633 silly gunzTarPerm   420 ]
+634 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/bootstrap-dropdown.js
+635 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/bootstrap-dropdown.js',
+635 silly gunzTarPerm   436,
+635 silly gunzTarPerm   420 ]
+636 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/bootstrap-tab.js
+637 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/bootstrap-tab.js',
+637 silly gunzTarPerm   436,
+637 silly gunzTarPerm   420 ]
+638 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/jquery.localScroll.js
+639 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/jquery.localScroll.js',
+639 silly gunzTarPerm   436,
+639 silly gunzTarPerm   420 ]
+640 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/jquery.min.js
+641 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/jquery.min.js',
+641 silly gunzTarPerm   436,
+641 silly gunzTarPerm   420 ]
+642 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/jquery.scrollTo.js
+643 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/jquery.scrollTo.js',
+643 silly gunzTarPerm   436,
+643 silly gunzTarPerm   420 ]
+644 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/jquery.sunlight.js
+645 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/jquery.sunlight.js',
+645 silly gunzTarPerm   436,
+645 silly gunzTarPerm   420 ]
+646 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/prettify/
+647 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/prettify/',
+647 silly gunzTarPerm   509,
+647 silly gunzTarPerm   493 ]
+648 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/prettify/Apache-License-2.0.txt
+649 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/prettify/Apache-License-2.0.txt',
+649 silly gunzTarPerm   436,
+649 silly gunzTarPerm   420 ]
+650 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/prettify/jquery.min.js
+651 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/prettify/jquery.min.js',
+651 silly gunzTarPerm   436,
+651 silly gunzTarPerm   420 ]
+652 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/prettify/lang-css.js
+653 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/prettify/lang-css.js',
+653 silly gunzTarPerm   436,
+653 silly gunzTarPerm   420 ]
+654 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/prettify/prettify.js
+655 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/prettify/prettify.js',
+655 silly gunzTarPerm   436,
+655 silly gunzTarPerm   420 ]
+656 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/sunlight-plugin.doclinks.js
+657 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/sunlight-plugin.doclinks.js',
+657 silly gunzTarPerm   436,
+657 silly gunzTarPerm   420 ]
+658 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/sunlight-plugin.linenumbers.js
+659 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/sunlight-plugin.linenumbers.js',
+659 silly gunzTarPerm   436,
+659 silly gunzTarPerm   420 ]
+660 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/sunlight-plugin.menu.js
+661 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/sunlight-plugin.menu.js',
+661 silly gunzTarPerm   436,
+661 silly gunzTarPerm   420 ]
+662 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/sunlight.javascript.js
+663 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/sunlight.javascript.js',
+663 silly gunzTarPerm   436,
+663 silly gunzTarPerm   420 ]
+664 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/sunlight.js
+665 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/sunlight.js',
+665 silly gunzTarPerm   436,
+665 silly gunzTarPerm   420 ]
+666 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/scripts/toc.js
+667 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/scripts/toc.js',
+667 silly gunzTarPerm   436,
+667 silly gunzTarPerm   420 ]
+668 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/styles/
+669 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/styles/',
+669 silly gunzTarPerm   509,
+669 silly gunzTarPerm   493 ]
+670 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/styles/darkstrap.css
+671 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/styles/darkstrap.css',
+671 silly gunzTarPerm   436,
+671 silly gunzTarPerm   420 ]
+672 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/styles/prettify-tomorrow.css
+673 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/styles/prettify-tomorrow.css',
+673 silly gunzTarPerm   436,
+673 silly gunzTarPerm   420 ]
+674 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/styles/site.cerulean.css
+675 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/styles/site.cerulean.css',
+675 silly gunzTarPerm   436,
+675 silly gunzTarPerm   420 ]
+676 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/styles/sunlight.dark.css
+677 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/styles/sunlight.dark.css',
+677 silly gunzTarPerm   436,
+677 silly gunzTarPerm   420 ]
+678 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/static/styles/sunlight.default.css
+679 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/static/styles/sunlight.default.css',
+679 silly gunzTarPerm   436,
+679 silly gunzTarPerm   420 ]
+680 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/
+681 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/', 509, 493 ]
+682 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/container.tmpl
+683 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/container.tmpl',
+683 silly gunzTarPerm   436,
+683 silly gunzTarPerm   420 ]
+684 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/details.tmpl
+685 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/details.tmpl',
+685 silly gunzTarPerm   436,
+685 silly gunzTarPerm   420 ]
+686 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/example.tmpl
+687 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/example.tmpl',
+687 silly gunzTarPerm   436,
+687 silly gunzTarPerm   420 ]
+688 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/examples.tmpl
+689 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/examples.tmpl',
+689 silly gunzTarPerm   436,
+689 silly gunzTarPerm   420 ]
+690 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/exceptions.tmpl
+691 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/exceptions.tmpl',
+691 silly gunzTarPerm   436,
+691 silly gunzTarPerm   420 ]
+692 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/fires.tmpl
+693 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/fires.tmpl',
+693 silly gunzTarPerm   436,
+693 silly gunzTarPerm   420 ]
+694 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/layout.tmpl
+695 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/layout.tmpl',
+695 silly gunzTarPerm   436,
+695 silly gunzTarPerm   420 ]
+696 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/mainpage.tmpl
+697 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/mainpage.tmpl',
+697 silly gunzTarPerm   436,
+697 silly gunzTarPerm   420 ]
+698 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/members.tmpl
+699 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/members.tmpl',
+699 silly gunzTarPerm   436,
+699 silly gunzTarPerm   420 ]
+700 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/method.tmpl
+701 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/method.tmpl',
+701 silly gunzTarPerm   436,
+701 silly gunzTarPerm   420 ]
+702 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/params.tmpl
+703 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/params.tmpl',
+703 silly gunzTarPerm   436,
+703 silly gunzTarPerm   420 ]
+704 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/properties.tmpl
+705 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/properties.tmpl',
+705 silly gunzTarPerm   436,
+705 silly gunzTarPerm   420 ]
+706 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/returns.tmpl
+707 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/returns.tmpl',
+707 silly gunzTarPerm   436,
+707 silly gunzTarPerm   420 ]
+708 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/sections.tmpl
+709 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/sections.tmpl',
+709 silly gunzTarPerm   436,
+709 silly gunzTarPerm   420 ]
+710 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/source.tmpl
+711 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/source.tmpl',
+711 silly gunzTarPerm   436,
+711 silly gunzTarPerm   420 ]
+712 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/tutorial.tmpl
+713 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/tutorial.tmpl',
+713 silly gunzTarPerm   436,
+713 silly gunzTarPerm   420 ]
+714 silly gunzTarPerm extractEntry docs/build/docstrap-master/template/tmpl/type.tmpl
+715 silly gunzTarPerm modified mode [ 'docs/build/docstrap-master/template/tmpl/type.tmpl',
+715 silly gunzTarPerm   436,
+715 silly gunzTarPerm   420 ]
+716 silly gunzTarPerm extractEntry docs/classes.list.html
+717 silly gunzTarPerm modified mode [ 'docs/classes.list.html', 436, 420 ]
+718 silly gunzTarPerm extractEntry docs/global.html
+719 silly gunzTarPerm modified mode [ 'docs/global.html', 436, 420 ]
+720 silly gunzTarPerm extractEntry docs/img/
+721 silly gunzTarPerm modified mode [ 'docs/img/', 509, 493 ]
+722 silly gunzTarPerm extractEntry docs/img/glyphicons-halflings-white.png
+723 silly gunzTarPerm modified mode [ 'docs/img/glyphicons-halflings-white.png', 436, 420 ]
+724 silly gunzTarPerm extractEntry docs/img/glyphicons-halflings.png
+725 silly gunzTarPerm modified mode [ 'docs/img/glyphicons-halflings.png', 436, 420 ]
+726 silly gunzTarPerm extractEntry docs/index.html
+727 silly gunzTarPerm modified mode [ 'docs/index.html', 436, 420 ]
+728 silly gunzTarPerm extractEntry docs/namespaces.list.html
+729 silly gunzTarPerm modified mode [ 'docs/namespaces.list.html', 436, 420 ]
+730 silly gunzTarPerm extractEntry docs/scripts/
+731 silly gunzTarPerm modified mode [ 'docs/scripts/', 509, 493 ]
+732 silly gunzTarPerm extractEntry docs/scripts/URI.js
+733 silly gunzTarPerm modified mode [ 'docs/scripts/URI.js', 436, 420 ]
+734 silly gunzTarPerm extractEntry docs/scripts/bootstrap-dropdown.js
+735 silly gunzTarPerm modified mode [ 'docs/scripts/bootstrap-dropdown.js', 436, 420 ]
+736 silly gunzTarPerm extractEntry docs/scripts/bootstrap-tab.js
+737 silly gunzTarPerm modified mode [ 'docs/scripts/bootstrap-tab.js', 436, 420 ]
+738 silly gunzTarPerm extractEntry docs/scripts/jquery.localScroll.js
+739 silly gunzTarPerm modified mode [ 'docs/scripts/jquery.localScroll.js', 436, 420 ]
+740 silly gunzTarPerm extractEntry docs/scripts/jquery.min.js
+741 silly gunzTarPerm modified mode [ 'docs/scripts/jquery.min.js', 436, 420 ]
+742 silly gunzTarPerm extractEntry docs/scripts/jquery.scrollTo.js
+743 silly gunzTarPerm modified mode [ 'docs/scripts/jquery.scrollTo.js', 436, 420 ]
+744 silly gunzTarPerm extractEntry docs/scripts/jquery.sunlight.js
+745 silly gunzTarPerm modified mode [ 'docs/scripts/jquery.sunlight.js', 436, 420 ]
+746 silly gunzTarPerm extractEntry docs/scripts/prettify/
+747 silly gunzTarPerm modified mode [ 'docs/scripts/prettify/', 509, 493 ]
+748 silly gunzTarPerm extractEntry docs/scripts/prettify/Apache-License-2.0.txt
+749 silly gunzTarPerm modified mode [ 'docs/scripts/prettify/Apache-License-2.0.txt', 436, 420 ]
+750 silly gunzTarPerm extractEntry docs/scripts/prettify/jquery.min.js
+751 silly gunzTarPerm modified mode [ 'docs/scripts/prettify/jquery.min.js', 436, 420 ]
+752 silly gunzTarPerm extractEntry docs/scripts/prettify/lang-css.js
+753 silly gunzTarPerm modified mode [ 'docs/scripts/prettify/lang-css.js', 436, 420 ]
+754 silly gunzTarPerm extractEntry docs/scripts/prettify/prettify.js
+755 silly gunzTarPerm modified mode [ 'docs/scripts/prettify/prettify.js', 436, 420 ]
+756 silly gunzTarPerm extractEntry docs/scripts/sunlight-plugin.doclinks.js
+757 silly gunzTarPerm modified mode [ 'docs/scripts/sunlight-plugin.doclinks.js', 436, 420 ]
+758 silly gunzTarPerm extractEntry docs/scripts/sunlight-plugin.linenumbers.js
+759 silly gunzTarPerm modified mode [ 'docs/scripts/sunlight-plugin.linenumbers.js', 436, 420 ]
+760 silly gunzTarPerm extractEntry docs/scripts/sunlight-plugin.menu.js
+761 silly gunzTarPerm modified mode [ 'docs/scripts/sunlight-plugin.menu.js', 436, 420 ]
+762 silly gunzTarPerm extractEntry docs/scripts/sunlight.javascript.js
+763 silly gunzTarPerm modified mode [ 'docs/scripts/sunlight.javascript.js', 436, 420 ]
+764 silly gunzTarPerm extractEntry docs/scripts/sunlight.js
+765 silly gunzTarPerm modified mode [ 'docs/scripts/sunlight.js', 436, 420 ]
+766 silly gunzTarPerm extractEntry docs/scripts/toc.js
+767 silly gunzTarPerm modified mode [ 'docs/scripts/toc.js', 436, 420 ]
+768 silly gunzTarPerm extractEntry docs/styles/
+769 silly gunzTarPerm modified mode [ 'docs/styles/', 509, 493 ]
+770 silly gunzTarPerm extractEntry docs/styles/darkstrap.css
+771 silly gunzTarPerm modified mode [ 'docs/styles/darkstrap.css', 436, 420 ]
+772 silly gunzTarPerm extractEntry docs/styles/prettify-tomorrow.css
+773 silly gunzTarPerm modified mode [ 'docs/styles/prettify-tomorrow.css', 436, 420 ]
+774 silly gunzTarPerm extractEntry docs/styles/site.cerulean.css
+775 silly gunzTarPerm modified mode [ 'docs/styles/site.cerulean.css', 436, 420 ]
+776 silly gunzTarPerm extractEntry docs/styles/sunlight.dark.css
+777 silly gunzTarPerm modified mode [ 'docs/styles/sunlight.dark.css', 436, 420 ]
+778 silly gunzTarPerm extractEntry docs/styles/sunlight.default.css
+779 silly gunzTarPerm modified mode [ 'docs/styles/sunlight.default.css', 436, 420 ]
+780 silly gunzTarPerm extractEntry examples/
+781 silly gunzTarPerm modified mode [ 'examples/', 509, 493 ]
+782 silly gunzTarPerm extractEntry examples/where have they gone.txt
+783 silly gunzTarPerm modified mode [ 'examples/where have they gone.txt', 436, 420 ]
+784 silly gunzTarPerm extractEntry filters/
+785 silly gunzTarPerm modified mode [ 'filters/', 509, 493 ]
+786 silly gunzTarPerm extractEntry filters/.jshintrc
+787 silly gunzTarPerm modified mode [ 'filters/.jshintrc', 436, 420 ]
+788 silly gunzTarPerm extractEntry filters/BinarySerpents.js
+789 silly gunzTarPerm modified mode [ 'filters/BinarySerpents.js', 436, 420 ]
+790 silly gunzTarPerm extractEntry filters/BlurX.js
+791 silly gunzTarPerm modified mode [ 'filters/BlurX.js', 436, 420 ]
+792 silly gunzTarPerm extractEntry filters/BlurY.js
+793 silly gunzTarPerm modified mode [ 'filters/BlurY.js', 436, 420 ]
+794 silly gunzTarPerm extractEntry filters/CausticLight.js
+795 silly gunzTarPerm modified mode [ 'filters/CausticLight.js', 436, 420 ]
+796 silly gunzTarPerm extractEntry filters/CheckerWave.js
+797 silly gunzTarPerm modified mode [ 'filters/CheckerWave.js', 436, 420 ]
+798 silly gunzTarPerm extractEntry filters/ColorBars.js
+799 silly gunzTarPerm modified mode [ 'filters/ColorBars.js', 436, 420 ]
+800 silly gunzTarPerm extractEntry filters/Fire.js
+801 silly gunzTarPerm modified mode [ 'filters/Fire.js', 436, 420 ]
+802 silly gunzTarPerm extractEntry filters/Gray.js
+803 silly gunzTarPerm modified mode [ 'filters/Gray.js', 436, 420 ]
+804 silly gunzTarPerm extractEntry filters/HueRotate.js
+805 silly gunzTarPerm modified mode [ 'filters/HueRotate.js', 436, 420 ]
+806 silly gunzTarPerm extractEntry filters/LightBeam.js
+807 silly gunzTarPerm modified mode [ 'filters/LightBeam.js', 436, 420 ]
+808 silly gunzTarPerm extractEntry filters/Marble.js
+809 silly gunzTarPerm modified mode [ 'filters/Marble.js', 436, 420 ]
+810 silly gunzTarPerm extractEntry filters/Pixelate.js
+811 silly gunzTarPerm modified mode [ 'filters/Pixelate.js', 436, 420 ]
+812 silly gunzTarPerm extractEntry filters/Plasma.js
+813 silly gunzTarPerm modified mode [ 'filters/Plasma.js', 436, 420 ]
+814 silly gunzTarPerm extractEntry filters/SampleFilter.js
+815 silly gunzTarPerm modified mode [ 'filters/SampleFilter.js', 436, 420 ]
+816 silly gunzTarPerm extractEntry filters/Tunnel.js
+817 silly gunzTarPerm modified mode [ 'filters/Tunnel.js', 436, 420 ]
+818 silly gunzTarPerm extractEntry license.txt
+819 silly gunzTarPerm modified mode [ 'license.txt', 436, 420 ]
+820 silly gunzTarPerm extractEntry package.json
+821 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+822 silly gunzTarPerm extractEntry phaser-logo-small.png
+823 silly gunzTarPerm modified mode [ 'phaser-logo-small.png', 436, 420 ]
+824 silly gunzTarPerm extractEntry plugins/
+825 silly gunzTarPerm modified mode [ 'plugins/', 509, 493 ]
+826 silly gunzTarPerm extractEntry plugins/where have they gone.txt
+827 silly gunzTarPerm modified mode [ 'plugins/where have they gone.txt', 436, 420 ]
+828 silly gunzTarPerm extractEntry resources/
+829 silly gunzTarPerm modified mode [ 'resources/', 509, 493 ]
+830 silly gunzTarPerm extractEntry resources/Asset Pack JSON Format/
+831 silly gunzTarPerm modified mode [ 'resources/Asset Pack JSON Format/', 509, 493 ]
+832 silly gunzTarPerm extractEntry resources/Asset Pack JSON Format/assetPack.json
+833 silly gunzTarPerm modified mode [ 'resources/Asset Pack JSON Format/assetPack.json', 436, 420 ]
+834 silly gunzTarPerm extractEntry resources/Flash to Phaser JSFL/
+835 silly gunzTarPerm modified mode [ 'resources/Flash to Phaser JSFL/', 509, 493 ]
+836 silly gunzTarPerm extractEntry resources/Flash to Phaser JSFL/Flash to Phaser Guide.docx
+837 silly gunzTarPerm modified mode [ 'resources/Flash to Phaser JSFL/Flash to Phaser Guide.docx',
+837 silly gunzTarPerm   436,
+837 silly gunzTarPerm   420 ]
+838 silly gunzTarPerm extractEntry resources/Flash to Phaser JSFL/Flash to Phaser Guide.pdf
+839 silly gunzTarPerm modified mode [ 'resources/Flash to Phaser JSFL/Flash to Phaser Guide.pdf',
+839 silly gunzTarPerm   436,
+839 silly gunzTarPerm   420 ]
+840 silly gunzTarPerm extractEntry resources/Flash to Phaser JSFL/Flash to Phaser.jsfl
+841 silly gunzTarPerm modified mode [ 'resources/Flash to Phaser JSFL/Flash to Phaser.jsfl',
+841 silly gunzTarPerm   436,
+841 silly gunzTarPerm   420 ]
+842 silly gunzTarPerm extractEntry resources/IE9 Polyfill/
+843 silly gunzTarPerm modified mode [ 'resources/IE9 Polyfill/', 509, 493 ]
+844 silly gunzTarPerm extractEntry resources/IE9 Polyfill/dataview-polyfill.js
+845 silly gunzTarPerm modified mode [ 'resources/IE9 Polyfill/dataview-polyfill.js', 436, 420 ]
+846 silly gunzTarPerm extractEntry resources/IE9 Polyfill/readme.txt
+847 silly gunzTarPerm modified mode [ 'resources/IE9 Polyfill/readme.txt', 436, 420 ]
+848 silly gunzTarPerm extractEntry resources/Migration Guide.md
+849 silly gunzTarPerm modified mode [ 'resources/Migration Guide.md', 436, 420 ]
+850 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/
+851 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/', 509, 493 ]
+852 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/
+853 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/', 509, 493 ]
+854 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/0.png
+855 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/0.png', 436, 420 ]
+856 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/1.png
+857 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/1.png', 436, 420 ]
+858 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/10.png
+859 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/10.png', 436, 420 ]
+860 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/11.png
+861 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/11.png', 436, 420 ]
+862 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/12.png
+863 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/12.png', 436, 420 ]
+864 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/13.png
+865 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/13.png', 436, 420 ]
+866 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/14.png
+867 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/14.png', 436, 420 ]
+868 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/15.png
+869 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/15.png', 436, 420 ]
+870 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/16.png
+871 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/16.png', 436, 420 ]
+872 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/17.png
+873 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/17.png', 436, 420 ]
+874 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/18.png
+875 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/18.png', 436, 420 ]
+876 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/19.png
+877 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/19.png', 436, 420 ]
+878 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/2.png
+879 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/2.png', 436, 420 ]
+880 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/20.png
+881 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/20.png', 436, 420 ]
+882 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/21.png
+883 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/21.png', 436, 420 ]
+884 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/22.png
+885 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/22.png', 436, 420 ]
+886 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/23.png
+887 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/23.png', 436, 420 ]
+888 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/24.png
+889 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/24.png', 436, 420 ]
+890 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/25.png
+891 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/25.png', 436, 420 ]
+892 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/26.png
+893 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/26.png', 436, 420 ]
+894 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/27.png
+895 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/27.png', 436, 420 ]
+896 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/28.png
+897 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/28.png', 436, 420 ]
+898 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/29.png
+899 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/29.png', 436, 420 ]
+900 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/3.png
+901 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/3.png', 436, 420 ]
+902 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/30.png
+903 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/30.png', 436, 420 ]
+904 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/31.png
+905 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/31.png', 436, 420 ]
+906 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/32.png
+907 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/32.png', 436, 420 ]
+908 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/33.png
+909 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/33.png', 436, 420 ]
+910 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/4.png
+911 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/4.png', 436, 420 ]
+912 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/5.png
+913 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/5.png', 436, 420 ]
+914 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/6.png
+915 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/6.png', 436, 420 ]
+916 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/7.png
+917 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/7.png', 436, 420 ]
+918 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/8.png
+919 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/8.png', 436, 420 ]
+920 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/9.png
+921 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/9.png', 436, 420 ]
+922 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/128px/ninja-tiles128.png
+923 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/128px/ninja-tiles128.png',
+923 silly gunzTarPerm   436,
+923 silly gunzTarPerm   420 ]
+924 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/
+925 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/', 509, 493 ]
+926 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/0.png
+927 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/0.png', 436, 420 ]
+928 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/1.png
+929 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/1.png', 436, 420 ]
+930 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/10.png
+931 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/10.png', 436, 420 ]
+932 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/11.png
+933 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/11.png', 436, 420 ]
+934 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/12.png
+935 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/12.png', 436, 420 ]
+936 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/13.png
+937 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/13.png', 436, 420 ]
+938 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/14.png
+939 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/14.png', 436, 420 ]
+940 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/15.png
+941 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/15.png', 436, 420 ]
+942 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/16.png
+943 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/16.png', 436, 420 ]
+944 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/17.png
+945 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/17.png', 436, 420 ]
+946 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/18.png
+947 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/18.png', 436, 420 ]
+948 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/19.png
+949 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/19.png', 436, 420 ]
+950 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/2.png
+951 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/2.png', 436, 420 ]
+952 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/20.png
+953 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/20.png', 436, 420 ]
+954 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/21.png
+955 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/21.png', 436, 420 ]
+956 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/22.png
+957 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/22.png', 436, 420 ]
+958 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/23.png
+959 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/23.png', 436, 420 ]
+960 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/24.png
+961 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/24.png', 436, 420 ]
+962 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/25.png
+963 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/25.png', 436, 420 ]
+964 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/26.png
+965 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/26.png', 436, 420 ]
+966 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/27.png
+967 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/27.png', 436, 420 ]
+968 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/28.png
+969 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/28.png', 436, 420 ]
+970 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/29.png
+971 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/29.png', 436, 420 ]
+972 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/3.png
+973 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/3.png', 436, 420 ]
+974 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/30.png
+975 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/30.png', 436, 420 ]
+976 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/31.png
+977 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/31.png', 436, 420 ]
+978 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/32.png
+979 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/32.png', 436, 420 ]
+980 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/33.png
+981 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/33.png', 436, 420 ]
+982 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/4.png
+983 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/4.png', 436, 420 ]
+984 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/5.png
+985 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/5.png', 436, 420 ]
+986 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/6.png
+987 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/6.png', 436, 420 ]
+988 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/7.png
+989 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/7.png', 436, 420 ]
+990 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/8.png
+991 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/8.png', 436, 420 ]
+992 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/9.png
+993 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/9.png', 436, 420 ]
+994 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/32px/ninja-tiles32.png
+995 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/32px/ninja-tiles32.png',
+995 silly gunzTarPerm   436,
+995 silly gunzTarPerm   420 ]
+996 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/
+997 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/', 509, 493 ]
+998 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/0.png
+999 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/0.png', 436, 420 ]
+1000 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/1.png
+1001 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/1.png', 436, 420 ]
+1002 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/10.png
+1003 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/10.png', 436, 420 ]
+1004 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/11.png
+1005 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/11.png', 436, 420 ]
+1006 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/12.png
+1007 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/12.png', 436, 420 ]
+1008 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/13.png
+1009 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/13.png', 436, 420 ]
+1010 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/14.png
+1011 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/14.png', 436, 420 ]
+1012 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/15.png
+1013 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/15.png', 436, 420 ]
+1014 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/16.png
+1015 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/16.png', 436, 420 ]
+1016 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/17.png
+1017 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/17.png', 436, 420 ]
+1018 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/18.png
+1019 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/18.png', 436, 420 ]
+1020 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/19.png
+1021 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/19.png', 436, 420 ]
+1022 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/2.png
+1023 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/2.png', 436, 420 ]
+1024 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/20.png
+1025 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/20.png', 436, 420 ]
+1026 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/21.png
+1027 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/21.png', 436, 420 ]
+1028 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/22.png
+1029 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/22.png', 436, 420 ]
+1030 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/23.png
+1031 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/23.png', 436, 420 ]
+1032 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/24.png
+1033 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/24.png', 436, 420 ]
+1034 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/25.png
+1035 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/25.png', 436, 420 ]
+1036 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/26.png
+1037 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/26.png', 436, 420 ]
+1038 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/27.png
+1039 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/27.png', 436, 420 ]
+1040 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/28.png
+1041 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/28.png', 436, 420 ]
+1042 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/29.png
+1043 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/29.png', 436, 420 ]
+1044 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/3.png
+1045 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/3.png', 436, 420 ]
+1046 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/30.png
+1047 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/30.png', 436, 420 ]
+1048 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/31.png
+1049 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/31.png', 436, 420 ]
+1050 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/32.png
+1051 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/32.png', 436, 420 ]
+1052 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/33.png
+1053 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/33.png', 436, 420 ]
+1054 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/4.png
+1055 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/4.png', 436, 420 ]
+1056 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/5.png
+1057 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/5.png', 436, 420 ]
+1058 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/6.png
+1059 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/6.png', 436, 420 ]
+1060 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/7.png
+1061 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/7.png', 436, 420 ]
+1062 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/8.png
+1063 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/8.png', 436, 420 ]
+1064 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/9.png
+1065 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/9.png', 436, 420 ]
+1066 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/64px/ninja-tiles64.png
+1067 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/64px/ninja-tiles64.png',
+1067 silly gunzTarPerm   436,
+1067 silly gunzTarPerm   420 ]
+1068 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/
+1069 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/', 509, 493 ]
+1070 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/22 deg nn B.png
+1071 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/22 deg nn B.png',
+1071 silly gunzTarPerm   436,
+1071 silly gunzTarPerm   420 ]
+1072 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/22 deg nn S.png
+1073 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/22 deg nn S.png',
+1073 silly gunzTarPerm   436,
+1073 silly gunzTarPerm   420 ]
+1074 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/22 deg np B.png
+1075 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/22 deg np B.png',
+1075 silly gunzTarPerm   436,
+1075 silly gunzTarPerm   420 ]
+1076 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/22 deg np S.png
+1077 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/22 deg np S.png',
+1077 silly gunzTarPerm   436,
+1077 silly gunzTarPerm   420 ]
+1078 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/22 deg pn B.png
+1079 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/22 deg pn B.png',
+1079 silly gunzTarPerm   436,
+1079 silly gunzTarPerm   420 ]
+1080 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/22 deg pn S.png
+1081 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/22 deg pn S.png',
+1081 silly gunzTarPerm   436,
+1081 silly gunzTarPerm   420 ]
+1082 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/22 deg pp B.png
+1083 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/22 deg pp B.png',
+1083 silly gunzTarPerm   436,
+1083 silly gunzTarPerm   420 ]
+1084 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/22 deg pp S.png
+1085 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/22 deg pp S.png',
+1085 silly gunzTarPerm   436,
+1085 silly gunzTarPerm   420 ]
+1086 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/45 deg nn.png
+1087 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/45 deg nn.png',
+1087 silly gunzTarPerm   436,
+1087 silly gunzTarPerm   420 ]
+1088 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/45 deg np.png
+1089 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/45 deg np.png',
+1089 silly gunzTarPerm   436,
+1089 silly gunzTarPerm   420 ]
+1090 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/45 deg pn.png
+1091 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/45 deg pn.png',
+1091 silly gunzTarPerm   436,
+1091 silly gunzTarPerm   420 ]
+1092 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/45 deg pp.png
+1093 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/45 deg pp.png',
+1093 silly gunzTarPerm   436,
+1093 silly gunzTarPerm   420 ]
+1094 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/67 deg nn B.png
+1095 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/67 deg nn B.png',
+1095 silly gunzTarPerm   436,
+1095 silly gunzTarPerm   420 ]
+1096 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/67 deg nn S.png
+1097 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/67 deg nn S.png',
+1097 silly gunzTarPerm   436,
+1097 silly gunzTarPerm   420 ]
+1098 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/67 deg np B.png
+1099 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/67 deg np B.png',
+1099 silly gunzTarPerm   436,
+1099 silly gunzTarPerm   420 ]
+1100 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/67 deg np S.png
+1101 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/67 deg np S.png',
+1101 silly gunzTarPerm   436,
+1101 silly gunzTarPerm   420 ]
+1102 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/67 deg pn B.png
+1103 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/67 deg pn B.png',
+1103 silly gunzTarPerm   436,
+1103 silly gunzTarPerm   420 ]
+1104 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/67 deg pn S.png
+1105 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/67 deg pn S.png',
+1105 silly gunzTarPerm   436,
+1105 silly gunzTarPerm   420 ]
+1106 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/67 deg pp B.png
+1107 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/67 deg pp B.png',
+1107 silly gunzTarPerm   436,
+1107 silly gunzTarPerm   420 ]
+1108 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/67 deg pp S.png
+1109 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/67 deg pp S.png',
+1109 silly gunzTarPerm   436,
+1109 silly gunzTarPerm   420 ]
+1110 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/concave nn.png
+1111 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/concave nn.png',
+1111 silly gunzTarPerm   436,
+1111 silly gunzTarPerm   420 ]
+1112 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/concave np.png
+1113 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/concave np.png',
+1113 silly gunzTarPerm   436,
+1113 silly gunzTarPerm   420 ]
+1114 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/concave pn.png
+1115 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/concave pn.png',
+1115 silly gunzTarPerm   436,
+1115 silly gunzTarPerm   420 ]
+1116 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/concave pp.png
+1117 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/concave pp.png',
+1117 silly gunzTarPerm   436,
+1117 silly gunzTarPerm   420 ]
+1118 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/convex nn.png
+1119 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/convex nn.png',
+1119 silly gunzTarPerm   436,
+1119 silly gunzTarPerm   420 ]
+1120 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/convex np.png
+1121 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/convex np.png',
+1121 silly gunzTarPerm   436,
+1121 silly gunzTarPerm   420 ]
+1122 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/convex pn.png
+1123 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/convex pn.png',
+1123 silly gunzTarPerm   436,
+1123 silly gunzTarPerm   420 ]
+1124 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/convex pp.png
+1125 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/convex pp.png',
+1125 silly gunzTarPerm   436,
+1125 silly gunzTarPerm   420 ]
+1126 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/full list.png
+1127 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/full list.png',
+1127 silly gunzTarPerm   436,
+1127 silly gunzTarPerm   420 ]
+1128 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/full.png
+1129 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/full.png',
+1129 silly gunzTarPerm   436,
+1129 silly gunzTarPerm   420 ]
+1130 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/half d.png
+1131 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/half d.png',
+1131 silly gunzTarPerm   436,
+1131 silly gunzTarPerm   420 ]
+1132 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/half l.png
+1133 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/half l.png',
+1133 silly gunzTarPerm   436,
+1133 silly gunzTarPerm   420 ]
+1134 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/half r.png
+1135 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/half r.png',
+1135 silly gunzTarPerm   436,
+1135 silly gunzTarPerm   420 ]
+1136 silly gunzTarPerm extractEntry resources/Ninja Physics Debug Tiles/named/half u.png
+1137 silly gunzTarPerm modified mode [ 'resources/Ninja Physics Debug Tiles/named/half u.png',
+1137 silly gunzTarPerm   436,
+1137 silly gunzTarPerm   420 ]
+1138 silly gunzTarPerm extractEntry resources/Phaser Logo/
+1139 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/', 509, 493 ]
+1140 silly gunzTarPerm extractEntry resources/Phaser Logo/2D Text/
+1141 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/2D Text/', 509, 493 ]
+1142 silly gunzTarPerm extractEntry resources/Phaser Logo/2D Text/Phaser 2D Glow.png
+1143 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/2D Text/Phaser 2D Glow.png', 436, 420 ]
+1144 silly gunzTarPerm extractEntry resources/Phaser Logo/2D Text/Phaser 2D Glow.psd
+1145 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/2D Text/Phaser 2D Glow.psd', 436, 420 ]
+1146 silly gunzTarPerm extractEntry resources/Phaser Logo/2D Text/Phaser 2D No Glow.png
+1147 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/2D Text/Phaser 2D No Glow.png',
+1147 silly gunzTarPerm   436,
+1147 silly gunzTarPerm   420 ]
+1148 silly gunzTarPerm extractEntry resources/Phaser Logo/2D Text/Phaser 2D No Glow.psd
+1149 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/2D Text/Phaser 2D No Glow.psd',
+1149 silly gunzTarPerm   436,
+1149 silly gunzTarPerm   420 ]
+1150 silly gunzTarPerm extractEntry resources/Phaser Logo/2D Text/Phaser Logo 2D Vector Outline.fla
+1151 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/2D Text/Phaser Logo 2D Vector Outline.fla',
+1151 silly gunzTarPerm   436,
+1151 silly gunzTarPerm   420 ]
+1152 silly gunzTarPerm extractEntry resources/Phaser Logo/PNG/
+1153 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/PNG/', 509, 493 ]
+1154 silly gunzTarPerm extractEntry resources/Phaser Logo/PNG/Phaser Logo Print Quality.png
+1155 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/PNG/Phaser Logo Print Quality.png',
+1155 silly gunzTarPerm   436,
+1155 silly gunzTarPerm   420 ]
+1156 silly gunzTarPerm extractEntry resources/Phaser Logo/PNG/Phaser Logo Web Quality.png
+1157 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/PNG/Phaser Logo Web Quality.png',
+1157 silly gunzTarPerm   436,
+1157 silly gunzTarPerm   420 ]
+1158 silly gunzTarPerm extractEntry resources/Phaser Logo/PNG/Phaser Logo iPad Resolution.png
+1159 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/PNG/Phaser Logo iPad Resolution.png',
+1159 silly gunzTarPerm   436,
+1159 silly gunzTarPerm   420 ]
+1160 silly gunzTarPerm extractEntry resources/Phaser Logo/PNG/Phaser-Logo-Small.png
+1161 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/PNG/Phaser-Logo-Small.png', 436, 420 ]
+1162 silly gunzTarPerm extractEntry resources/Phaser Logo/Pixel Art/
+1163 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/Pixel Art/', 509, 493 ]
+1164 silly gunzTarPerm extractEntry resources/Phaser Logo/Pixel Art/Phaser-Logo-Sizes.png
+1165 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/Pixel Art/Phaser-Logo-Sizes.png',
+1165 silly gunzTarPerm   436,
+1165 silly gunzTarPerm   420 ]
+1166 silly gunzTarPerm extractEntry resources/Phaser Logo/Pixel Art/phaser_pixel_large_shaded.png
+1167 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/Pixel Art/phaser_pixel_large_shaded.png',
+1167 silly gunzTarPerm   436,
+1167 silly gunzTarPerm   420 ]
+1168 silly gunzTarPerm extractEntry resources/Phaser Logo/Pixel Art/phaser_pixel_medium_flat.png
+1169 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/Pixel Art/phaser_pixel_medium_flat.png',
+1169 silly gunzTarPerm   436,
+1169 silly gunzTarPerm   420 ]
+1170 silly gunzTarPerm extractEntry resources/Phaser Logo/Pixel Art/phaser_pixel_medium_shaded.png
+1171 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/Pixel Art/phaser_pixel_medium_shaded.png',
+1171 silly gunzTarPerm   436,
+1171 silly gunzTarPerm   420 ]
+1172 silly gunzTarPerm extractEntry resources/Phaser Logo/Pixel Art/phaser_pixel_small_flat.png
+1173 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/Pixel Art/phaser_pixel_small_flat.png',
+1173 silly gunzTarPerm   436,
+1173 silly gunzTarPerm   420 ]
+1174 silly gunzTarPerm extractEntry resources/Phaser Logo/Vector/
+1175 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/Vector/', 509, 493 ]
+1176 silly gunzTarPerm extractEntry resources/Phaser Logo/Vector/Phaser Logo.eps
+1177 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/Vector/Phaser Logo.eps', 436, 420 ]
+1178 silly gunzTarPerm extractEntry resources/Phaser Logo/Vector/Phaser Logo.fla
+1179 silly gunzTarPerm modified mode [ 'resources/Phaser Logo/Vector/Phaser Logo.fla', 436, 420 ]
+1180 silly gunzTarPerm extractEntry resources/PhysicsEditor Exporter/
+1181 silly gunzTarPerm modified mode [ 'resources/PhysicsEditor Exporter/', 509, 493 ]
+1182 silly gunzTarPerm extractEntry resources/PhysicsEditor Exporter/exporter.xml
+1183 silly gunzTarPerm modified mode [ 'resources/PhysicsEditor Exporter/exporter.xml', 436, 420 ]
+1184 silly gunzTarPerm extractEntry resources/PhysicsEditor Exporter/phaser.json
+1185 silly gunzTarPerm modified mode [ 'resources/PhysicsEditor Exporter/phaser.json', 436, 420 ]
+1186 silly gunzTarPerm extractEntry resources/Project Templates/
+1187 silly gunzTarPerm modified mode [ 'resources/Project Templates/', 509, 493 ]
+1188 silly gunzTarPerm extractEntry resources/Project Templates/Basic/
+1189 silly gunzTarPerm modified mode [ 'resources/Project Templates/Basic/', 509, 493 ]
+1190 silly gunzTarPerm extractEntry resources/Project Templates/Basic/Boot.js
+1191 silly gunzTarPerm modified mode [ 'resources/Project Templates/Basic/Boot.js', 436, 420 ]
+1192 silly gunzTarPerm extractEntry resources/Project Templates/Basic/Game.js
+1193 silly gunzTarPerm modified mode [ 'resources/Project Templates/Basic/Game.js', 436, 420 ]
+1194 silly gunzTarPerm extractEntry resources/Project Templates/Basic/MainMenu.js
+1195 silly gunzTarPerm modified mode [ 'resources/Project Templates/Basic/MainMenu.js', 436, 420 ]
+1196 silly gunzTarPerm extractEntry resources/Project Templates/Basic/Preloader.js
+1197 silly gunzTarPerm modified mode [ 'resources/Project Templates/Basic/Preloader.js', 436, 420 ]
+1198 silly gunzTarPerm extractEntry resources/Project Templates/Basic/index.html
+1199 silly gunzTarPerm modified mode [ 'resources/Project Templates/Basic/index.html', 436, 420 ]
+1200 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/
+1201 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/', 509, 493 ]
+1202 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/apple-touch-icon.png
+1203 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/apple-touch-icon.png',
+1203 silly gunzTarPerm   436,
+1203 silly gunzTarPerm   420 ]
+1204 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/css/
+1205 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/css/',
+1205 silly gunzTarPerm   509,
+1205 silly gunzTarPerm   493 ]
+1206 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/css/stylesheet.css
+1207 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/css/stylesheet.css',
+1207 silly gunzTarPerm   436,
+1207 silly gunzTarPerm   420 ]
+1208 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/
+1209 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/',
+1209 silly gunzTarPerm   509,
+1209 silly gunzTarPerm   493 ]
+1210 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_1024x1024.png
+1211 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_1024x1024.png',
+1211 silly gunzTarPerm   436,
+1211 silly gunzTarPerm   420 ]
+1212 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_114x114.png
+1213 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_114x114.png',
+1213 silly gunzTarPerm   436,
+1213 silly gunzTarPerm   420 ]
+1214 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_120x120.png
+1215 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_120x120.png',
+1215 silly gunzTarPerm   436,
+1215 silly gunzTarPerm   420 ]
+1216 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_144x144.png
+1217 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_144x144.png',
+1217 silly gunzTarPerm   436,
+1217 silly gunzTarPerm   420 ]
+1218 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_152x152.png
+1219 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_152x152.png',
+1219 silly gunzTarPerm   436,
+1219 silly gunzTarPerm   420 ]
+1220 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_256x256.png
+1221 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_256x256.png',
+1221 silly gunzTarPerm   436,
+1221 silly gunzTarPerm   420 ]
+1222 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_512x512.png
+1223 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_512x512.png',
+1223 silly gunzTarPerm   436,
+1223 silly gunzTarPerm   420 ]
+1224 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_57x57.png
+1225 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_57x57.png',
+1225 silly gunzTarPerm   436,
+1225 silly gunzTarPerm   420 ]
+1226 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_60x60.png
+1227 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_60x60.png',
+1227 silly gunzTarPerm   436,
+1227 silly gunzTarPerm   420 ]
+1228 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_72x72.png
+1229 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_72x72.png',
+1229 silly gunzTarPerm   436,
+1229 silly gunzTarPerm   420 ]
+1230 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/icons/app_icon_76x76.png
+1231 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/icons/app_icon_76x76.png',
+1231 silly gunzTarPerm   436,
+1231 silly gunzTarPerm   420 ]
+1232 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/images/
+1233 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/images/',
+1233 silly gunzTarPerm   509,
+1233 silly gunzTarPerm   493 ]
+1234 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/images/orientation.jpg
+1235 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/images/orientation.jpg',
+1235 silly gunzTarPerm   436,
+1235 silly gunzTarPerm   420 ]
+1236 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/index.html
+1237 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/index.html',
+1237 silly gunzTarPerm   436,
+1237 silly gunzTarPerm   420 ]
+1238 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/src/
+1239 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/src/',
+1239 silly gunzTarPerm   509,
+1239 silly gunzTarPerm   493 ]
+1240 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/src/Boot.js
+1241 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/src/Boot.js',
+1241 silly gunzTarPerm   436,
+1241 silly gunzTarPerm   420 ]
+1242 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/src/Game.js
+1243 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/src/Game.js',
+1243 silly gunzTarPerm   436,
+1243 silly gunzTarPerm   420 ]
+1244 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/src/MainMenu.js
+1245 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/src/MainMenu.js',
+1245 silly gunzTarPerm   436,
+1245 silly gunzTarPerm   420 ]
+1246 silly gunzTarPerm extractEntry resources/Project Templates/Full Screen Mobile/src/Preloader.js
+1247 silly gunzTarPerm modified mode [ 'resources/Project Templates/Full Screen Mobile/src/Preloader.js',
+1247 silly gunzTarPerm   436,
+1247 silly gunzTarPerm   420 ]
+1248 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/
+1249 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/', 509, 493 ]
+1250 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/.bowerrc
+1251 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/.bowerrc', 436, 420 ]
+1252 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/README.md
+1253 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/README.md', 436, 420 ]
+1254 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/assets/
+1255 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/assets/', 509, 493 ]
+1256 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/assets/phaser.png
+1257 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/assets/phaser.png',
+1257 silly gunzTarPerm   436,
+1257 silly gunzTarPerm   420 ]
+1258 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/bower.json
+1259 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/bower.json', 436, 420 ]
+1260 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/index.html
+1261 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/index.html', 436, 420 ]
+1262 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/src/
+1263 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/src/', 509, 493 ]
+1264 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/src/game.js
+1265 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/src/game.js', 436, 420 ]
+1266 silly gunzTarPerm extractEntry resources/Project Templates/RequireJS/src/main.js
+1267 silly gunzTarPerm modified mode [ 'resources/Project Templates/RequireJS/src/main.js', 436, 420 ]
+1268 silly gunzTarPerm extractEntry resources/Project Templates/Responsive/
+1269 silly gunzTarPerm modified mode [ 'resources/Project Templates/Responsive/', 509, 493 ]
+1270 silly gunzTarPerm extractEntry resources/Project Templates/Responsive/Boot.js
+1271 silly gunzTarPerm modified mode [ 'resources/Project Templates/Responsive/Boot.js', 436, 420 ]
+1272 silly gunzTarPerm extractEntry resources/Project Templates/Responsive/Game.js
+1273 silly gunzTarPerm modified mode [ 'resources/Project Templates/Responsive/Game.js', 436, 420 ]
+1274 silly gunzTarPerm extractEntry resources/Project Templates/Responsive/MainMenu.js
+1275 silly gunzTarPerm modified mode [ 'resources/Project Templates/Responsive/MainMenu.js',
+1275 silly gunzTarPerm   436,
+1275 silly gunzTarPerm   420 ]
+1276 silly gunzTarPerm extractEntry resources/Project Templates/Responsive/Preloader.js
+1277 silly gunzTarPerm modified mode [ 'resources/Project Templates/Responsive/Preloader.js',
+1277 silly gunzTarPerm   436,
+1277 silly gunzTarPerm   420 ]
+1278 silly gunzTarPerm extractEntry resources/Project Templates/Responsive/index.html
+1279 silly gunzTarPerm modified mode [ 'resources/Project Templates/Responsive/index.html', 436, 420 ]
+1280 silly gunzTarPerm extractEntry resources/Screen Shots/
+1281 silly gunzTarPerm modified mode [ 'resources/Screen Shots/', 509, 493 ]
+1282 silly gunzTarPerm extractEntry resources/Screen Shots/phaser-cybernoid.png
+1283 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser-cybernoid.png', 436, 420 ]
+1284 silly gunzTarPerm extractEntry resources/Screen Shots/phaser-demoscene.png
+1285 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser-demoscene.png', 436, 420 ]
+1286 silly gunzTarPerm extractEntry resources/Screen Shots/phaser-fireball.png
+1287 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser-fireball.png', 436, 420 ]
+1288 silly gunzTarPerm extractEntry resources/Screen Shots/phaser-flood-fill.png
+1289 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser-flood-fill.png', 436, 420 ]
+1290 silly gunzTarPerm extractEntry resources/Screen Shots/phaser-p2-cannon.png
+1291 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser-p2-cannon.png', 436, 420 ]
+1292 silly gunzTarPerm extractEntry resources/Screen Shots/phaser-protracker.png
+1293 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser-protracker.png', 436, 420 ]
+1294 silly gunzTarPerm extractEntry resources/Screen Shots/phaser-waves.png
+1295 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser-waves.png', 436, 420 ]
+1296 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_balls.png
+1297 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_balls.png', 436, 420 ]
+1298 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_blaster.png
+1299 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_blaster.png', 436, 420 ]
+1300 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_cams.png
+1301 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_cams.png', 436, 420 ]
+1302 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_checkerwave.png
+1303 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_checkerwave.png', 436, 420 ]
+1304 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_desert.png
+1305 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_desert.png', 436, 420 ]
+1306 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_fixed_camera.png
+1307 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_fixed_camera.png', 436, 420 ]
+1308 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_fruit.png
+1309 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_fruit.png', 436, 420 ]
+1310 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_fruit_particles.png
+1311 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_fruit_particles.png', 436, 420 ]
+1312 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_mapdraw.png
+1313 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_mapdraw.png', 436, 420 ]
+1314 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_marble.png
+1315 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_marble.png', 436, 420 ]
+1316 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_mario_combo.png
+1317 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_mario_combo.png', 436, 420 ]
+1318 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_multiple_anims.png
+1319 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_multiple_anims.png', 436, 420 ]
+1320 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_particle_trails.png
+1321 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_particle_trails.png', 436, 420 ]
+1322 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_particles.png
+1323 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_particles.png', 436, 420 ]
+1324 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_platformer.png
+1325 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_platformer.png', 436, 420 ]
+1326 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_polygons.png
+1327 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_polygons.png', 436, 420 ]
+1328 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_quadtree.png
+1329 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_quadtree.png', 436, 420 ]
+1330 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_rotate4.png
+1331 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_rotate4.png', 436, 420 ]
+1332 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_scrollfactor.png
+1333 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_scrollfactor.png', 436, 420 ]
+1334 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_sprite_bounds.png
+1335 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_sprite_bounds.png', 436, 420 ]
+1336 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_tanks.png
+1337 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_tanks.png', 436, 420 ]
+1338 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_tilemap.png
+1339 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_tilemap.png', 436, 420 ]
+1340 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_tilemap_collision.png
+1341 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_tilemap_collision.png',
+1341 silly gunzTarPerm   436,
+1341 silly gunzTarPerm   420 ]
+1342 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_tilemap_debug.png
+1343 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_tilemap_debug.png', 436, 420 ]
+1344 silly gunzTarPerm extractEntry resources/Screen Shots/phaser_tunnel.png
+1345 silly gunzTarPerm modified mode [ 'resources/Screen Shots/phaser_tunnel.png', 436, 420 ]
+1346 silly gunzTarPerm extractEntry resources/release-names.txt
+1347 silly gunzTarPerm modified mode [ 'resources/release-names.txt', 436, 420 ]
+1348 silly gunzTarPerm extractEntry resources/tutorials/
+1349 silly gunzTarPerm modified mode [ 'resources/tutorials/', 509, 493 ]
+1350 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/
+1351 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/', 509, 493 ]
+1352 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/hellophaser.zip
+1353 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/hellophaser.zip',
+1353 silly gunzTarPerm   436,
+1353 silly gunzTarPerm   420 ]
+1354 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/hellophaser/
+1355 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/hellophaser/',
+1355 silly gunzTarPerm   509,
+1355 silly gunzTarPerm   493 ]
+1356 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/hellophaser/index.html
+1357 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/hellophaser/index.html',
+1357 silly gunzTarPerm   436,
+1357 silly gunzTarPerm   420 ]
+1358 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/hellophaser/phaser.min.js
+1359 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/hellophaser/phaser.min.js',
+1359 silly gunzTarPerm   436,
+1359 silly gunzTarPerm   420 ]
+1360 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/hellophaser/phaser.png
+1361 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/hellophaser/phaser.png',
+1361 silly gunzTarPerm   436,
+1361 silly gunzTarPerm   420 ]
+1362 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/images/
+1363 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/images/', 509, 493 ]
+1364 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/images/cloneFrom.jpg
+1365 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/images/cloneFrom.jpg',
+1365 silly gunzTarPerm   436,
+1365 silly gunzTarPerm   420 ]
+1366 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/images/dashboard.jpg
+1367 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/images/dashboard.jpg',
+1367 silly gunzTarPerm   436,
+1367 silly gunzTarPerm   420 ]
+1368 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/images/editor.jpg
+1369 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/images/editor.jpg',
+1369 silly gunzTarPerm   436,
+1369 silly gunzTarPerm   420 ]
+1370 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/images/start.jpg
+1371 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/images/start.jpg',
+1371 silly gunzTarPerm   436,
+1371 silly gunzTarPerm   420 ]
+1372 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/index.html
+1373 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/index.html', 436, 420 ]
+1374 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/part2.html
+1375 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/part2.html', 436, 420 ]
+1376 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/part3.html
+1377 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/part3.html', 436, 420 ]
+1378 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/part4.html
+1379 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/part4.html', 436, 420 ]
+1380 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/part5.html
+1381 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/part5.html', 436, 420 ]
+1382 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/part6.html
+1383 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/part6.html', 436, 420 ]
+1384 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/part7.html
+1385 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/part7.html', 436, 420 ]
+1386 silly gunzTarPerm extractEntry resources/tutorials/01 Getting Started/part8.html
+1387 silly gunzTarPerm modified mode [ 'resources/tutorials/01 Getting Started/part8.html', 436, 420 ]
+1388 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/
+1389 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/', 509, 493 ]
+1390 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/assets/
+1391 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/assets/',
+1391 silly gunzTarPerm   509,
+1391 silly gunzTarPerm   493 ]
+1392 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/assets/baddie.png
+1393 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/assets/baddie.png',
+1393 silly gunzTarPerm   436,
+1393 silly gunzTarPerm   420 ]
+1394 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/assets/diamond.png
+1395 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/assets/diamond.png',
+1395 silly gunzTarPerm   436,
+1395 silly gunzTarPerm   420 ]
+1396 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/assets/dude.png
+1397 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/assets/dude.png',
+1397 silly gunzTarPerm   436,
+1397 silly gunzTarPerm   420 ]
+1398 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/assets/firstaid.png
+1399 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/assets/firstaid.png',
+1399 silly gunzTarPerm   436,
+1399 silly gunzTarPerm   420 ]
+1400 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/assets/platform.png
+1401 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/assets/platform.png',
+1401 silly gunzTarPerm   436,
+1401 silly gunzTarPerm   420 ]
+1402 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/assets/sky.png
+1403 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/assets/sky.png',
+1403 silly gunzTarPerm   436,
+1403 silly gunzTarPerm   420 ]
+1404 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/assets/star.png
+1405 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/assets/star.png',
+1405 silly gunzTarPerm   436,
+1405 silly gunzTarPerm   420 ]
+1406 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/js/
+1407 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/js/', 509, 493 ]
+1408 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/js/phaser.min.js
+1409 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/js/phaser.min.js',
+1409 silly gunzTarPerm   436,
+1409 silly gunzTarPerm   420 ]
+1410 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/part1.html
+1411 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/part1.html',
+1411 silly gunzTarPerm   436,
+1411 silly gunzTarPerm   420 ]
+1412 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/part2.html
+1413 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/part2.html',
+1413 silly gunzTarPerm   436,
+1413 silly gunzTarPerm   420 ]
+1414 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/part3.html
+1415 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/part3.html',
+1415 silly gunzTarPerm   436,
+1415 silly gunzTarPerm   420 ]
+1416 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/part4.html
+1417 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/part4.html',
+1417 silly gunzTarPerm   436,
+1417 silly gunzTarPerm   420 ]
+1418 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/part5.html
+1419 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/part5.html',
+1419 silly gunzTarPerm   436,
+1419 silly gunzTarPerm   420 ]
+1420 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/part6.html
+1421 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/part6.html',
+1421 silly gunzTarPerm   436,
+1421 silly gunzTarPerm   420 ]
+1422 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/part7.html
+1423 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/part7.html',
+1423 silly gunzTarPerm   436,
+1423 silly gunzTarPerm   420 ]
+1424 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/part8.html
+1425 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/part8.html',
+1425 silly gunzTarPerm   436,
+1425 silly gunzTarPerm   420 ]
+1426 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/part9.html
+1427 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/part9.html',
+1427 silly gunzTarPerm   436,
+1427 silly gunzTarPerm   420 ]
+1428 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/phaser_1x_tutorial_02.zip
+1429 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/phaser_1x_tutorial_02.zip',
+1429 silly gunzTarPerm   436,
+1429 silly gunzTarPerm   420 ]
+1430 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/phaser_tutorial_02.zip
+1431 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/phaser_tutorial_02.zip',
+1431 silly gunzTarPerm   436,
+1431 silly gunzTarPerm   420 ]
+1432 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/screen shots/
+1433 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/screen shots/',
+1433 silly gunzTarPerm   509,
+1433 silly gunzTarPerm   493 ]
+1434 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/screen shots/part3.png
+1435 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/screen shots/part3.png',
+1435 silly gunzTarPerm   436,
+1435 silly gunzTarPerm   420 ]
+1436 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/screen shots/part4.png
+1437 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/screen shots/part4.png',
+1437 silly gunzTarPerm   436,
+1437 silly gunzTarPerm   420 ]
+1438 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/screen shots/part5.png
+1439 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/screen shots/part5.png',
+1439 silly gunzTarPerm   436,
+1439 silly gunzTarPerm   420 ]
+1440 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/screen shots/part6.png
+1441 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/screen shots/part6.png',
+1441 silly gunzTarPerm   436,
+1441 silly gunzTarPerm   420 ]
+1442 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/screen shots/part7.png
+1443 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/screen shots/part7.png',
+1443 silly gunzTarPerm   436,
+1443 silly gunzTarPerm   420 ]
+1444 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/screen shots/part8.png
+1445 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/screen shots/part8.png',
+1445 silly gunzTarPerm   436,
+1445 silly gunzTarPerm   420 ]
+1446 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/screen shots/part9.png
+1447 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/screen shots/part9.png',
+1447 silly gunzTarPerm   436,
+1447 silly gunzTarPerm   420 ]
+1448 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/screen shots/tutorial_header.png
+1449 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/screen shots/tutorial_header.png',
+1449 silly gunzTarPerm   436,
+1449 silly gunzTarPerm   420 ]
+1450 silly gunzTarPerm extractEntry resources/tutorials/02 Making your first game/tutorial.html
+1451 silly gunzTarPerm modified mode [ 'resources/tutorials/02 Making your first game/tutorial.html',
+1451 silly gunzTarPerm   436,
+1451 silly gunzTarPerm   420 ]
+1452 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/
+1453 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/',
+1453 silly gunzTarPerm   509,
+1453 silly gunzTarPerm   493 ]
+1454 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/
+1455 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/',
+1455 silly gunzTarPerm   509,
+1455 silly gunzTarPerm   493 ]
+1456 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/part1.png
+1457 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/part1.png',
+1457 silly gunzTarPerm   436,
+1457 silly gunzTarPerm   420 ]
+1458 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/part2.png
+1459 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/part2.png',
+1459 silly gunzTarPerm   436,
+1459 silly gunzTarPerm   420 ]
+1460 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/part3.png
+1461 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/part3.png',
+1461 silly gunzTarPerm   436,
+1461 silly gunzTarPerm   420 ]
+1462 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/part4.png
+1463 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/part4.png',
+1463 silly gunzTarPerm   436,
+1463 silly gunzTarPerm   420 ]
+1464 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/part5.png
+1465 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/part5.png',
+1465 silly gunzTarPerm   436,
+1465 silly gunzTarPerm   420 ]
+1466 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/part6.png
+1467 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/part6.png',
+1467 silly gunzTarPerm   436,
+1467 silly gunzTarPerm   420 ]
+1468 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/part7.png
+1469 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/part7.png',
+1469 silly gunzTarPerm   436,
+1469 silly gunzTarPerm   420 ]
+1470 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/part8.png
+1471 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/part8.png',
+1471 silly gunzTarPerm   436,
+1471 silly gunzTarPerm   420 ]
+1472 silly gunzTarPerm extractEntry resources/tutorials/03 Using Phaser with TypeScript/screen shots/part9.png
+1473 silly gunzTarPerm modified mode [ 'resources/tutorials/03 Using Phaser with TypeScript/screen shots/part9.png',
+1473 silly gunzTarPerm   436,
+1473 silly gunzTarPerm   420 ]
+1474 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/
+1475 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/',
+1475 silly gunzTarPerm   509,
+1475 silly gunzTarPerm   493 ]
+1476 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/assets.zip
+1477 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/assets.zip',
+1477 silly gunzTarPerm   436,
+1477 silly gunzTarPerm   420 ]
+1478 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/assets/
+1479 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/assets/',
+1479 silly gunzTarPerm   509,
+1479 silly gunzTarPerm   493 ]
+1480 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/assets/level1.png
+1481 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/assets/level1.png',
+1481 silly gunzTarPerm   436,
+1481 silly gunzTarPerm   420 ]
+1482 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/assets/loader.png
+1483 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/assets/loader.png',
+1483 silly gunzTarPerm   436,
+1483 silly gunzTarPerm   420 ]
+1484 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/assets/logo.png
+1485 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/assets/logo.png',
+1485 silly gunzTarPerm   436,
+1485 silly gunzTarPerm   420 ]
+1486 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/assets/simon.png
+1487 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/assets/simon.png',
+1487 silly gunzTarPerm   436,
+1487 silly gunzTarPerm   420 ]
+1488 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/assets/title.mp3
+1489 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/assets/title.mp3',
+1489 silly gunzTarPerm   436,
+1489 silly gunzTarPerm   420 ]
+1490 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/assets/titlepage.jpg
+1491 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/assets/titlepage.jpg',
+1491 silly gunzTarPerm   436,
+1491 silly gunzTarPerm   420 ]
+1492 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/index.html
+1493 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/index.html',
+1493 silly gunzTarPerm   436,
+1493 silly gunzTarPerm   420 ]
+1494 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/screen shots/
+1495 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/screen shots/',
+1495 silly gunzTarPerm   509,
+1495 silly gunzTarPerm   493 ]
+1496 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/screen shots/part1.png
+1497 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/screen shots/part1.png',
+1497 silly gunzTarPerm   436,
+1497 silly gunzTarPerm   420 ]
+1498 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/screen shots/part2.png
+1499 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/screen shots/part2.png',
+1499 silly gunzTarPerm   436,
+1499 silly gunzTarPerm   420 ]
+1500 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/screen shots/part3.jpg
+1501 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/screen shots/part3.jpg',
+1501 silly gunzTarPerm   436,
+1501 silly gunzTarPerm   420 ]
+1502 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/screen shots/part3.png
+1503 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/screen shots/part3.png',
+1503 silly gunzTarPerm   436,
+1503 silly gunzTarPerm   420 ]
+1504 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/screen shots/part4.png
+1505 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/screen shots/part4.png',
+1505 silly gunzTarPerm   436,
+1505 silly gunzTarPerm   420 ]
+1506 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/screen shots/part5.png
+1507 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/screen shots/part5.png',
+1507 silly gunzTarPerm   436,
+1507 silly gunzTarPerm   420 ]
+1508 silly gunzTarPerm extractEntry resources/tutorials/04 Advanced TypeScript Projects/visualstudio_project.zip
+1509 silly gunzTarPerm modified mode [ 'resources/tutorials/04 Advanced TypeScript Projects/visualstudio_project.zip',
+1509 silly gunzTarPerm   436,
+1509 silly gunzTarPerm   420 ]
+1510 silly gunzTarPerm extractEntry resources/tutorials/Spanish/
+1511 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/', 509, 493 ]
+1512 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/
+1513 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/', 509, 493 ]
+1514 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/images/
+1515 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/images/', 509, 493 ]
+1516 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/images/cloneFrom.jpg
+1517 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/images/cloneFrom.jpg',
+1517 silly gunzTarPerm   436,
+1517 silly gunzTarPerm   420 ]
+1518 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/images/dashboard.jpg
+1519 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/images/dashboard.jpg',
+1519 silly gunzTarPerm   436,
+1519 silly gunzTarPerm   420 ]
+1520 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/images/editor.jpg
+1521 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/images/editor.jpg',
+1521 silly gunzTarPerm   436,
+1521 silly gunzTarPerm   420 ]
+1522 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/images/start.jpg
+1523 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/images/start.jpg',
+1523 silly gunzTarPerm   436,
+1523 silly gunzTarPerm   420 ]
+1524 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/index.html
+1525 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/index.html',
+1525 silly gunzTarPerm   436,
+1525 silly gunzTarPerm   420 ]
+1526 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/part2.html
+1527 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/part2.html',
+1527 silly gunzTarPerm   436,
+1527 silly gunzTarPerm   420 ]
+1528 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/part3.html
+1529 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/part3.html',
+1529 silly gunzTarPerm   436,
+1529 silly gunzTarPerm   420 ]
+1530 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/part4.html
+1531 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/part4.html',
+1531 silly gunzTarPerm   436,
+1531 silly gunzTarPerm   420 ]
+1532 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/part5.html
+1533 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/part5.html',
+1533 silly gunzTarPerm   436,
+1533 silly gunzTarPerm   420 ]
+1534 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/part6.html
+1535 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/part6.html',
+1535 silly gunzTarPerm   436,
+1535 silly gunzTarPerm   420 ]
+1536 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/part7.html
+1537 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/part7.html',
+1537 silly gunzTarPerm   436,
+1537 silly gunzTarPerm   420 ]
+1538 silly gunzTarPerm extractEntry resources/tutorials/Spanish/01 Comenzando/part8.html
+1539 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/01 Comenzando/part8.html',
+1539 silly gunzTarPerm   436,
+1539 silly gunzTarPerm   420 ]
+1540 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/
+1541 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/',
+1541 silly gunzTarPerm   509,
+1541 silly gunzTarPerm   493 ]
+1542 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/assets/
+1543 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/assets/',
+1543 silly gunzTarPerm   509,
+1543 silly gunzTarPerm   493 ]
+1544 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/assets/baddie.png
+1545 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/assets/baddie.png',
+1545 silly gunzTarPerm   436,
+1545 silly gunzTarPerm   420 ]
+1546 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/assets/diamond.png
+1547 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/assets/diamond.png',
+1547 silly gunzTarPerm   436,
+1547 silly gunzTarPerm   420 ]
+1548 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/assets/dude.png
+1549 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/assets/dude.png',
+1549 silly gunzTarPerm   436,
+1549 silly gunzTarPerm   420 ]
+1550 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/assets/firstaid.png
+1551 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/assets/firstaid.png',
+1551 silly gunzTarPerm   436,
+1551 silly gunzTarPerm   420 ]
+1552 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/assets/platform.png
+1553 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/assets/platform.png',
+1553 silly gunzTarPerm   436,
+1553 silly gunzTarPerm   420 ]
+1554 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/assets/sky.png
+1555 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/assets/sky.png',
+1555 silly gunzTarPerm   436,
+1555 silly gunzTarPerm   420 ]
+1556 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/assets/star.png
+1557 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/assets/star.png',
+1557 silly gunzTarPerm   436,
+1557 silly gunzTarPerm   420 ]
+1558 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/js/
+1559 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/js/',
+1559 silly gunzTarPerm   509,
+1559 silly gunzTarPerm   493 ]
+1560 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/js/phaser.min.js
+1561 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/js/phaser.min.js',
+1561 silly gunzTarPerm   436,
+1561 silly gunzTarPerm   420 ]
+1562 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/part1.html
+1563 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/part1.html',
+1563 silly gunzTarPerm   436,
+1563 silly gunzTarPerm   420 ]
+1564 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/part2.html
+1565 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/part2.html',
+1565 silly gunzTarPerm   436,
+1565 silly gunzTarPerm   420 ]
+1566 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/part3.html
+1567 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/part3.html',
+1567 silly gunzTarPerm   436,
+1567 silly gunzTarPerm   420 ]
+1568 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/part4.html
+1569 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/part4.html',
+1569 silly gunzTarPerm   436,
+1569 silly gunzTarPerm   420 ]
+1570 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/part5.html
+1571 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/part5.html',
+1571 silly gunzTarPerm   436,
+1571 silly gunzTarPerm   420 ]
+1572 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/part6.html
+1573 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/part6.html',
+1573 silly gunzTarPerm   436,
+1573 silly gunzTarPerm   420 ]
+1574 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/part7.html
+1575 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/part7.html',
+1575 silly gunzTarPerm   436,
+1575 silly gunzTarPerm   420 ]
+1576 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/part8.html
+1577 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/part8.html',
+1577 silly gunzTarPerm   436,
+1577 silly gunzTarPerm   420 ]
+1578 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/part9.html
+1579 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/part9.html',
+1579 silly gunzTarPerm   436,
+1579 silly gunzTarPerm   420 ]
+1580 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/phaser_tutorial_02.zip
+1581 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/phaser_tutorial_02.zip',
+1581 silly gunzTarPerm   436,
+1581 silly gunzTarPerm   420 ]
+1582 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/
+1583 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/',
+1583 silly gunzTarPerm   509,
+1583 silly gunzTarPerm   493 ]
+1584 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part3.png
+1585 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part3.png',
+1585 silly gunzTarPerm   436,
+1585 silly gunzTarPerm   420 ]
+1586 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part4.png
+1587 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part4.png',
+1587 silly gunzTarPerm   436,
+1587 silly gunzTarPerm   420 ]
+1588 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part5.png
+1589 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part5.png',
+1589 silly gunzTarPerm   436,
+1589 silly gunzTarPerm   420 ]
+1590 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part6.png
+1591 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part6.png',
+1591 silly gunzTarPerm   436,
+1591 silly gunzTarPerm   420 ]
+1592 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part7.png
+1593 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part7.png',
+1593 silly gunzTarPerm   436,
+1593 silly gunzTarPerm   420 ]
+1594 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part8.png
+1595 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part8.png',
+1595 silly gunzTarPerm   436,
+1595 silly gunzTarPerm   420 ]
+1596 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part9.png
+1597 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/part9.png',
+1597 silly gunzTarPerm   436,
+1597 silly gunzTarPerm   420 ]
+1598 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/tutorial_header.png
+1599 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/screen shots/tutorial_header.png',
+1599 silly gunzTarPerm   436,
+1599 silly gunzTarPerm   420 ]
+1600 silly gunzTarPerm extractEntry resources/tutorials/Spanish/02 Creando tu primer juego/tutorial.html
+1601 silly gunzTarPerm modified mode [ 'resources/tutorials/Spanish/02 Creando tu primer juego/tutorial.html',
+1601 silly gunzTarPerm   436,
+1601 silly gunzTarPerm   420 ]
+1602 silly gunzTarPerm extractEntry resources/zwoptex-phaser.template
+1603 silly gunzTarPerm modified mode [ 'resources/zwoptex-phaser.template', 436, 420 ]
+1604 silly gunzTarPerm extractEntry src/
+1605 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+1606 silly gunzTarPerm extractEntry src/Intro.js
+1607 silly gunzTarPerm modified mode [ 'src/Intro.js', 436, 420 ]
+1608 silly gunzTarPerm extractEntry src/Outro.js
+1609 silly gunzTarPerm modified mode [ 'src/Outro.js', 436, 420 ]
+1610 silly gunzTarPerm extractEntry src/Phaser.js
+1611 silly gunzTarPerm modified mode [ 'src/Phaser.js', 436, 420 ]
+1612 silly gunzTarPerm extractEntry src/animation/
+1613 silly gunzTarPerm modified mode [ 'src/animation/', 509, 493 ]
+1614 silly gunzTarPerm extractEntry src/animation/Animation.js
+1615 silly gunzTarPerm modified mode [ 'src/animation/Animation.js', 436, 420 ]
+1616 silly gunzTarPerm extractEntry src/animation/AnimationManager.js
+1617 silly gunzTarPerm modified mode [ 'src/animation/AnimationManager.js', 436, 420 ]
+1618 silly gunzTarPerm extractEntry src/animation/AnimationParser.js
+1619 silly gunzTarPerm modified mode [ 'src/animation/AnimationParser.js', 436, 420 ]
+1620 silly gunzTarPerm extractEntry src/animation/Frame.js
+1621 silly gunzTarPerm modified mode [ 'src/animation/Frame.js', 436, 420 ]
+1622 silly gunzTarPerm extractEntry src/animation/FrameData.js
+1623 silly gunzTarPerm modified mode [ 'src/animation/FrameData.js', 436, 420 ]
+1624 silly gunzTarPerm extractEntry src/core/
+1625 silly gunzTarPerm modified mode [ 'src/core/', 509, 493 ]
+1626 silly gunzTarPerm extractEntry src/core/ArrayList.js
+1627 silly gunzTarPerm modified mode [ 'src/core/ArrayList.js', 436, 420 ]
+1628 silly gunzTarPerm extractEntry src/core/Camera.js
+1629 silly gunzTarPerm modified mode [ 'src/core/Camera.js', 436, 420 ]
+1630 silly gunzTarPerm extractEntry src/core/Filter.js
+1631 silly gunzTarPerm modified mode [ 'src/core/Filter.js', 436, 420 ]
+1632 silly gunzTarPerm extractEntry src/core/FlexGrid.js
+1633 silly gunzTarPerm modified mode [ 'src/core/FlexGrid.js', 436, 420 ]
+1634 silly gunzTarPerm extractEntry src/core/FlexLayer.js
+1635 silly gunzTarPerm modified mode [ 'src/core/FlexLayer.js', 436, 420 ]
+1636 silly gunzTarPerm extractEntry src/core/Game.js
+1637 silly gunzTarPerm modified mode [ 'src/core/Game.js', 436, 420 ]
+1638 silly gunzTarPerm extractEntry src/core/Group.js
+1639 silly gunzTarPerm modified mode [ 'src/core/Group.js', 436, 420 ]
+1640 silly gunzTarPerm extractEntry src/core/LinkedList.js
+1641 silly gunzTarPerm modified mode [ 'src/core/LinkedList.js', 436, 420 ]
+1642 silly gunzTarPerm extractEntry src/core/Plugin.js
+1643 silly gunzTarPerm modified mode [ 'src/core/Plugin.js', 436, 420 ]
+1644 silly gunzTarPerm extractEntry src/core/PluginManager.js
+1645 silly gunzTarPerm modified mode [ 'src/core/PluginManager.js', 436, 420 ]
+1646 silly gunzTarPerm extractEntry src/core/ScaleManager.js
+1647 silly gunzTarPerm modified mode [ 'src/core/ScaleManager.js', 436, 420 ]
+1648 silly gunzTarPerm extractEntry src/core/Signal.js
+1649 silly gunzTarPerm modified mode [ 'src/core/Signal.js', 436, 420 ]
+1650 silly gunzTarPerm extractEntry src/core/SignalBinding.js
+1651 silly gunzTarPerm modified mode [ 'src/core/SignalBinding.js', 436, 420 ]
+1652 silly gunzTarPerm extractEntry src/core/Stage.js
+1653 silly gunzTarPerm modified mode [ 'src/core/Stage.js', 436, 420 ]
+1654 silly gunzTarPerm extractEntry src/core/State.js
+1655 silly gunzTarPerm modified mode [ 'src/core/State.js', 436, 420 ]
+1656 silly gunzTarPerm extractEntry src/core/StateManager.js
+1657 silly gunzTarPerm modified mode [ 'src/core/StateManager.js', 436, 420 ]
+1658 silly gunzTarPerm extractEntry src/core/World.js
+1659 silly gunzTarPerm modified mode [ 'src/core/World.js', 436, 420 ]
+1660 silly gunzTarPerm extractEntry src/gameobjects/
+1661 silly gunzTarPerm modified mode [ 'src/gameobjects/', 509, 493 ]
+1662 silly gunzTarPerm extractEntry src/gameobjects/BitmapData.js
+1663 silly gunzTarPerm modified mode [ 'src/gameobjects/BitmapData.js', 436, 420 ]
+1664 silly gunzTarPerm extractEntry src/gameobjects/BitmapText.js
+1665 silly gunzTarPerm modified mode [ 'src/gameobjects/BitmapText.js', 436, 420 ]
+1666 silly gunzTarPerm extractEntry src/gameobjects/Button.js
+1667 silly gunzTarPerm modified mode [ 'src/gameobjects/Button.js', 436, 420 ]
+1668 silly gunzTarPerm extractEntry src/gameobjects/Events.js
+1669 silly gunzTarPerm modified mode [ 'src/gameobjects/Events.js', 436, 420 ]
+1670 silly gunzTarPerm extractEntry src/gameobjects/GameObjectCreator.js
+1671 silly gunzTarPerm modified mode [ 'src/gameobjects/GameObjectCreator.js', 436, 420 ]
+1672 silly gunzTarPerm extractEntry src/gameobjects/GameObjectFactory.js
+1673 silly gunzTarPerm modified mode [ 'src/gameobjects/GameObjectFactory.js', 436, 420 ]
+1674 silly gunzTarPerm extractEntry src/gameobjects/Graphics.js
+1675 silly gunzTarPerm modified mode [ 'src/gameobjects/Graphics.js', 436, 420 ]
+1676 silly gunzTarPerm extractEntry src/gameobjects/Image.js
+1677 silly gunzTarPerm modified mode [ 'src/gameobjects/Image.js', 436, 420 ]
+1678 silly gunzTarPerm extractEntry src/gameobjects/Particle.js
+1679 silly gunzTarPerm modified mode [ 'src/gameobjects/Particle.js', 436, 420 ]
+1680 silly gunzTarPerm extractEntry src/gameobjects/RenderTexture.js
+1681 silly gunzTarPerm modified mode [ 'src/gameobjects/RenderTexture.js', 436, 420 ]
+1682 silly gunzTarPerm extractEntry src/gameobjects/RetroFont.js
+1683 silly gunzTarPerm modified mode [ 'src/gameobjects/RetroFont.js', 436, 420 ]
+1684 silly gunzTarPerm extractEntry src/gameobjects/Rope.js
+1685 silly gunzTarPerm modified mode [ 'src/gameobjects/Rope.js', 436, 420 ]
+1686 silly gunzTarPerm extractEntry src/gameobjects/Sprite.js
+1687 silly gunzTarPerm modified mode [ 'src/gameobjects/Sprite.js', 436, 420 ]
+1688 silly gunzTarPerm extractEntry src/gameobjects/SpriteBatch.js
+1689 silly gunzTarPerm modified mode [ 'src/gameobjects/SpriteBatch.js', 436, 420 ]
+1690 silly gunzTarPerm extractEntry src/gameobjects/Text.js
+1691 silly gunzTarPerm modified mode [ 'src/gameobjects/Text.js', 436, 420 ]
+1692 silly gunzTarPerm extractEntry src/gameobjects/TileSprite.js
+1693 silly gunzTarPerm modified mode [ 'src/gameobjects/TileSprite.js', 436, 420 ]
+1694 silly gunzTarPerm extractEntry src/geom/
+1695 silly gunzTarPerm modified mode [ 'src/geom/', 509, 493 ]
+1696 silly gunzTarPerm extractEntry src/geom/Circle.js
+1697 silly gunzTarPerm modified mode [ 'src/geom/Circle.js', 436, 420 ]
+1698 silly gunzTarPerm extractEntry src/geom/Ellipse.js
+1699 silly gunzTarPerm modified mode [ 'src/geom/Ellipse.js', 436, 420 ]
+1700 silly gunzTarPerm extractEntry src/geom/Line.js
+1701 silly gunzTarPerm modified mode [ 'src/geom/Line.js', 436, 420 ]
+1702 silly gunzTarPerm extractEntry src/geom/Point.js
+1703 silly gunzTarPerm modified mode [ 'src/geom/Point.js', 436, 420 ]
+1704 silly gunzTarPerm extractEntry src/geom/Polygon.js
+1705 silly gunzTarPerm modified mode [ 'src/geom/Polygon.js', 436, 420 ]
+1706 silly gunzTarPerm extractEntry src/geom/Rectangle.js
+1707 silly gunzTarPerm modified mode [ 'src/geom/Rectangle.js', 436, 420 ]
+1708 silly gunzTarPerm extractEntry src/input/
+1709 silly gunzTarPerm modified mode [ 'src/input/', 509, 493 ]
+1710 silly gunzTarPerm extractEntry src/input/Gamepad.js
+1711 silly gunzTarPerm modified mode [ 'src/input/Gamepad.js', 436, 420 ]
+1712 silly gunzTarPerm extractEntry src/input/GamepadButton.js
+1713 silly gunzTarPerm modified mode [ 'src/input/GamepadButton.js', 436, 420 ]
+1714 silly gunzTarPerm extractEntry src/input/Input.js
+1715 silly gunzTarPerm modified mode [ 'src/input/Input.js', 436, 420 ]
+1716 silly gunzTarPerm extractEntry src/input/InputHandler.js
+1717 silly gunzTarPerm modified mode [ 'src/input/InputHandler.js', 436, 420 ]
+1718 silly gunzTarPerm extractEntry src/input/Key.js
+1719 silly gunzTarPerm modified mode [ 'src/input/Key.js', 436, 420 ]
+1720 silly gunzTarPerm extractEntry src/input/Keyboard.js
+1721 silly gunzTarPerm modified mode [ 'src/input/Keyboard.js', 436, 420 ]
+1722 silly gunzTarPerm extractEntry src/input/MSPointer.js
+1723 silly gunzTarPerm modified mode [ 'src/input/MSPointer.js', 436, 420 ]
+1724 silly gunzTarPerm extractEntry src/input/Mouse.js
+1725 silly gunzTarPerm modified mode [ 'src/input/Mouse.js', 436, 420 ]
+1726 silly gunzTarPerm extractEntry src/input/Pointer.js
+1727 silly gunzTarPerm modified mode [ 'src/input/Pointer.js', 436, 420 ]
+1728 silly gunzTarPerm extractEntry src/input/SinglePad.js
+1729 silly gunzTarPerm modified mode [ 'src/input/SinglePad.js', 436, 420 ]
+1730 silly gunzTarPerm extractEntry src/input/Touch.js
+1731 silly gunzTarPerm modified mode [ 'src/input/Touch.js', 436, 420 ]
+1732 silly gunzTarPerm extractEntry src/loader/
+1733 silly gunzTarPerm modified mode [ 'src/loader/', 509, 493 ]
+1734 silly gunzTarPerm extractEntry src/loader/Cache.js
+1735 silly gunzTarPerm modified mode [ 'src/loader/Cache.js', 436, 420 ]
+1736 silly gunzTarPerm extractEntry src/loader/Loader.js
+1737 silly gunzTarPerm modified mode [ 'src/loader/Loader.js', 436, 420 ]
+1738 silly gunzTarPerm extractEntry src/loader/LoaderParser.js
+1739 silly gunzTarPerm modified mode [ 'src/loader/LoaderParser.js', 436, 420 ]
+1740 silly gunzTarPerm extractEntry src/math/
+1741 silly gunzTarPerm modified mode [ 'src/math/', 509, 493 ]
+1742 silly gunzTarPerm extractEntry src/math/Math.js
+1743 silly gunzTarPerm modified mode [ 'src/math/Math.js', 436, 420 ]
+1744 silly gunzTarPerm extractEntry src/math/QuadTree.js
+1745 silly gunzTarPerm modified mode [ 'src/math/QuadTree.js', 436, 420 ]
+1746 silly gunzTarPerm extractEntry src/math/RandomDataGenerator.js
+1747 silly gunzTarPerm modified mode [ 'src/math/RandomDataGenerator.js', 436, 420 ]
+1748 silly gunzTarPerm extractEntry src/net/
+1749 silly gunzTarPerm modified mode [ 'src/net/', 509, 493 ]
+1750 silly gunzTarPerm extractEntry src/net/Net.js
+1751 silly gunzTarPerm modified mode [ 'src/net/Net.js', 436, 420 ]
+1752 silly gunzTarPerm extractEntry src/particles/
+1753 silly gunzTarPerm modified mode [ 'src/particles/', 509, 493 ]
+1754 silly gunzTarPerm extractEntry src/particles/Particles.js
+1755 silly gunzTarPerm modified mode [ 'src/particles/Particles.js', 436, 420 ]
+1756 silly gunzTarPerm extractEntry src/particles/arcade/
+1757 silly gunzTarPerm modified mode [ 'src/particles/arcade/', 509, 493 ]
+1758 silly gunzTarPerm extractEntry src/particles/arcade/ArcadeParticles.js
+1759 silly gunzTarPerm modified mode [ 'src/particles/arcade/ArcadeParticles.js', 436, 420 ]
+1760 silly gunzTarPerm extractEntry src/particles/arcade/Emitter.js
+1761 silly gunzTarPerm modified mode [ 'src/particles/arcade/Emitter.js', 436, 420 ]
+1762 silly gunzTarPerm extractEntry src/physics/
+1763 silly gunzTarPerm modified mode [ 'src/physics/', 509, 493 ]
+1764 silly gunzTarPerm extractEntry src/physics/Physics.js
+1765 silly gunzTarPerm modified mode [ 'src/physics/Physics.js', 436, 420 ]
+1766 silly gunzTarPerm extractEntry src/physics/arcade/
+1767 silly gunzTarPerm modified mode [ 'src/physics/arcade/', 509, 493 ]
+1768 silly gunzTarPerm extractEntry src/physics/arcade/Body.js
+1769 silly gunzTarPerm modified mode [ 'src/physics/arcade/Body.js', 436, 420 ]
+1770 silly gunzTarPerm extractEntry src/physics/arcade/World.js
+1771 silly gunzTarPerm modified mode [ 'src/physics/arcade/World.js', 436, 420 ]
+1772 silly gunzTarPerm extractEntry src/physics/ninja/
+1773 silly gunzTarPerm modified mode [ 'src/physics/ninja/', 509, 493 ]
+1774 silly gunzTarPerm extractEntry src/physics/ninja/AABB.js
+1775 silly gunzTarPerm modified mode [ 'src/physics/ninja/AABB.js', 436, 420 ]
+1776 silly gunzTarPerm extractEntry src/physics/ninja/Body.js
+1777 silly gunzTarPerm modified mode [ 'src/physics/ninja/Body.js', 436, 420 ]
+1778 silly gunzTarPerm extractEntry src/physics/ninja/Circle.js
+1779 silly gunzTarPerm modified mode [ 'src/physics/ninja/Circle.js', 436, 420 ]
+1780 silly gunzTarPerm extractEntry src/physics/ninja/Tile.js
+1781 silly gunzTarPerm modified mode [ 'src/physics/ninja/Tile.js', 436, 420 ]
+1782 silly gunzTarPerm extractEntry src/physics/ninja/World.js
+1783 silly gunzTarPerm modified mode [ 'src/physics/ninja/World.js', 436, 420 ]
+1784 silly gunzTarPerm extractEntry src/physics/p2/
+1785 silly gunzTarPerm modified mode [ 'src/physics/p2/', 509, 493 ]
+1786 silly gunzTarPerm extractEntry src/physics/p2/Body.js
+1787 silly gunzTarPerm modified mode [ 'src/physics/p2/Body.js', 436, 420 ]
+1788 silly gunzTarPerm extractEntry src/physics/p2/BodyDebug.js
+1789 silly gunzTarPerm modified mode [ 'src/physics/p2/BodyDebug.js', 436, 420 ]
+1790 silly gunzTarPerm extractEntry src/physics/p2/CollisionGroup.js
+1791 silly gunzTarPerm modified mode [ 'src/physics/p2/CollisionGroup.js', 436, 420 ]
+1792 silly gunzTarPerm extractEntry src/physics/p2/ContactMaterial.js
+1793 silly gunzTarPerm modified mode [ 'src/physics/p2/ContactMaterial.js', 436, 420 ]
+1794 silly gunzTarPerm extractEntry src/physics/p2/DistanceConstraint.js
+1795 silly gunzTarPerm modified mode [ 'src/physics/p2/DistanceConstraint.js', 436, 420 ]
+1796 silly gunzTarPerm extractEntry src/physics/p2/FixtureList.js
+1797 silly gunzTarPerm modified mode [ 'src/physics/p2/FixtureList.js', 436, 420 ]
+1798 silly gunzTarPerm extractEntry src/physics/p2/GearConstraint.js
+1799 silly gunzTarPerm modified mode [ 'src/physics/p2/GearConstraint.js', 436, 420 ]
+1800 silly gunzTarPerm extractEntry src/physics/p2/InversePointProxy.js
+1801 silly gunzTarPerm modified mode [ 'src/physics/p2/InversePointProxy.js', 436, 420 ]
+1802 silly gunzTarPerm extractEntry src/physics/p2/LockConstraint.js
+1803 silly gunzTarPerm modified mode [ 'src/physics/p2/LockConstraint.js', 436, 420 ]
+1804 silly gunzTarPerm extractEntry src/physics/p2/Material.js
+1805 silly gunzTarPerm modified mode [ 'src/physics/p2/Material.js', 436, 420 ]
+1806 silly gunzTarPerm extractEntry src/physics/p2/PointProxy.js
+1807 silly gunzTarPerm modified mode [ 'src/physics/p2/PointProxy.js', 436, 420 ]
+1808 silly gunzTarPerm extractEntry src/physics/p2/PrismaticConstraint.js
+1809 silly gunzTarPerm modified mode [ 'src/physics/p2/PrismaticConstraint.js', 436, 420 ]
+1810 silly gunzTarPerm extractEntry src/physics/p2/RevoluteConstraint.js
+1811 silly gunzTarPerm modified mode [ 'src/physics/p2/RevoluteConstraint.js', 436, 420 ]
+1812 silly gunzTarPerm extractEntry src/physics/p2/RotationalSpring.js
+1813 silly gunzTarPerm modified mode [ 'src/physics/p2/RotationalSpring.js', 436, 420 ]
+1814 silly gunzTarPerm extractEntry src/physics/p2/Spring.js
+1815 silly gunzTarPerm modified mode [ 'src/physics/p2/Spring.js', 436, 420 ]
+1816 silly gunzTarPerm extractEntry src/physics/p2/World.js
+1817 silly gunzTarPerm modified mode [ 'src/physics/p2/World.js', 436, 420 ]
+1818 silly gunzTarPerm extractEntry src/physics/p2/p2.js
+1819 silly gunzTarPerm modified mode [ 'src/physics/p2/p2.js', 436, 420 ]
+1820 silly gunzTarPerm extractEntry src/pixi/
+1821 silly gunzTarPerm modified mode [ 'src/pixi/', 509, 493 ]
+1822 silly gunzTarPerm extractEntry src/pixi/InteractionData.js
+1823 silly gunzTarPerm modified mode [ 'src/pixi/InteractionData.js', 436, 420 ]
+1824 silly gunzTarPerm extractEntry src/pixi/InteractionManager.js
+1825 silly gunzTarPerm modified mode [ 'src/pixi/InteractionManager.js', 436, 420 ]
+1826 silly gunzTarPerm extractEntry src/pixi/Intro.js
+1827 silly gunzTarPerm modified mode [ 'src/pixi/Intro.js', 436, 420 ]
+1828 silly gunzTarPerm extractEntry src/pixi/Outro.js
+1829 silly gunzTarPerm modified mode [ 'src/pixi/Outro.js', 436, 420 ]
+1830 silly gunzTarPerm extractEntry src/pixi/Pixi.js
+1831 silly gunzTarPerm modified mode [ 'src/pixi/Pixi.js', 436, 420 ]
+1832 silly gunzTarPerm extractEntry src/pixi/core/
+1833 silly gunzTarPerm modified mode [ 'src/pixi/core/', 509, 493 ]
+1834 silly gunzTarPerm extractEntry src/pixi/core/Circle.js
+1835 silly gunzTarPerm modified mode [ 'src/pixi/core/Circle.js', 436, 420 ]
+1836 silly gunzTarPerm extractEntry src/pixi/core/Ellipse.js
+1837 silly gunzTarPerm modified mode [ 'src/pixi/core/Ellipse.js', 436, 420 ]
+1838 silly gunzTarPerm extractEntry src/pixi/core/Matrix.js
+1839 silly gunzTarPerm modified mode [ 'src/pixi/core/Matrix.js', 436, 420 ]
+1840 silly gunzTarPerm extractEntry src/pixi/core/Point.js
+1841 silly gunzTarPerm modified mode [ 'src/pixi/core/Point.js', 436, 420 ]
+1842 silly gunzTarPerm extractEntry src/pixi/core/Polygon.js
+1843 silly gunzTarPerm modified mode [ 'src/pixi/core/Polygon.js', 436, 420 ]
+1844 silly gunzTarPerm extractEntry src/pixi/core/Rectangle.js
+1845 silly gunzTarPerm modified mode [ 'src/pixi/core/Rectangle.js', 436, 420 ]
+1846 silly gunzTarPerm extractEntry src/pixi/display/
+1847 silly gunzTarPerm modified mode [ 'src/pixi/display/', 509, 493 ]
+1848 silly gunzTarPerm extractEntry src/pixi/display/DisplayObject.js
+1849 silly gunzTarPerm modified mode [ 'src/pixi/display/DisplayObject.js', 436, 420 ]
+1850 silly gunzTarPerm extractEntry src/pixi/display/DisplayObjectContainer.js
+1851 silly gunzTarPerm modified mode [ 'src/pixi/display/DisplayObjectContainer.js', 436, 420 ]
+1852 silly gunzTarPerm extractEntry src/pixi/display/MovieClip.js
+1853 silly gunzTarPerm modified mode [ 'src/pixi/display/MovieClip.js', 436, 420 ]
+1854 silly gunzTarPerm extractEntry src/pixi/display/Sprite.js
+1855 silly gunzTarPerm modified mode [ 'src/pixi/display/Sprite.js', 436, 420 ]
+1856 silly gunzTarPerm extractEntry src/pixi/display/SpriteBatch.js
+1857 silly gunzTarPerm modified mode [ 'src/pixi/display/SpriteBatch.js', 436, 420 ]
+1858 silly gunzTarPerm extractEntry src/pixi/display/Stage.js
+1859 silly gunzTarPerm modified mode [ 'src/pixi/display/Stage.js', 436, 420 ]
+1860 silly gunzTarPerm extractEntry src/pixi/extras/
+1861 silly gunzTarPerm modified mode [ 'src/pixi/extras/', 509, 493 ]
+1862 silly gunzTarPerm extractEntry src/pixi/extras/Rope.js
+1863 silly gunzTarPerm modified mode [ 'src/pixi/extras/Rope.js', 436, 420 ]
+1864 silly gunzTarPerm extractEntry src/pixi/extras/SPINE-LICENSE
+1865 silly gunzTarPerm modified mode [ 'src/pixi/extras/SPINE-LICENSE', 436, 420 ]
+1866 silly gunzTarPerm extractEntry src/pixi/extras/Spine.js
+1867 silly gunzTarPerm modified mode [ 'src/pixi/extras/Spine.js', 436, 420 ]
+1868 silly gunzTarPerm extractEntry src/pixi/extras/Strip.js
+1869 silly gunzTarPerm modified mode [ 'src/pixi/extras/Strip.js', 436, 420 ]
+1870 silly gunzTarPerm extractEntry src/pixi/extras/TilingSprite.js
+1871 silly gunzTarPerm modified mode [ 'src/pixi/extras/TilingSprite.js', 436, 420 ]
+1872 silly gunzTarPerm extractEntry src/pixi/filters/
+1873 silly gunzTarPerm modified mode [ 'src/pixi/filters/', 509, 493 ]
+1874 silly gunzTarPerm extractEntry src/pixi/filters/AbstractFilter.js
+1875 silly gunzTarPerm modified mode [ 'src/pixi/filters/AbstractFilter.js', 436, 420 ]
+1876 silly gunzTarPerm extractEntry src/pixi/filters/AlphaMaskFilter.js
+1877 silly gunzTarPerm modified mode [ 'src/pixi/filters/AlphaMaskFilter.js', 436, 420 ]
+1878 silly gunzTarPerm extractEntry src/pixi/filters/BlurFilter.js
+1879 silly gunzTarPerm modified mode [ 'src/pixi/filters/BlurFilter.js', 436, 420 ]
+1880 silly gunzTarPerm extractEntry src/pixi/filters/BlurXFilter.js
+1881 silly gunzTarPerm modified mode [ 'src/pixi/filters/BlurXFilter.js', 436, 420 ]
+1882 silly gunzTarPerm extractEntry src/pixi/filters/BlurYFilter.js
+1883 silly gunzTarPerm modified mode [ 'src/pixi/filters/BlurYFilter.js', 436, 420 ]
+1884 silly gunzTarPerm extractEntry src/pixi/filters/ColorMatrixFilter.js
+1885 silly gunzTarPerm modified mode [ 'src/pixi/filters/ColorMatrixFilter.js', 436, 420 ]
+1886 silly gunzTarPerm extractEntry src/pixi/filters/ColorStepFilter.js
+1887 silly gunzTarPerm modified mode [ 'src/pixi/filters/ColorStepFilter.js', 436, 420 ]
+1888 silly gunzTarPerm extractEntry src/pixi/filters/CrossHatchFilter.js
+1889 silly gunzTarPerm modified mode [ 'src/pixi/filters/CrossHatchFilter.js', 436, 420 ]
+1890 silly gunzTarPerm extractEntry src/pixi/filters/DisplacementFilter.js
+1891 silly gunzTarPerm modified mode [ 'src/pixi/filters/DisplacementFilter.js', 436, 420 ]
+1892 silly gunzTarPerm extractEntry src/pixi/filters/DotScreenFilter.js
+1893 silly gunzTarPerm modified mode [ 'src/pixi/filters/DotScreenFilter.js', 436, 420 ]
+1894 silly gunzTarPerm extractEntry src/pixi/filters/FilterBlock.js
+1895 silly gunzTarPerm modified mode [ 'src/pixi/filters/FilterBlock.js', 436, 420 ]
+1896 silly gunzTarPerm extractEntry src/pixi/filters/GrayFilter.js
+1897 silly gunzTarPerm modified mode [ 'src/pixi/filters/GrayFilter.js', 436, 420 ]
+1898 silly gunzTarPerm extractEntry src/pixi/filters/InvertFilter.js
+1899 silly gunzTarPerm modified mode [ 'src/pixi/filters/InvertFilter.js', 436, 420 ]
+1900 silly gunzTarPerm extractEntry src/pixi/filters/NormalMapFilter.js
+1901 silly gunzTarPerm modified mode [ 'src/pixi/filters/NormalMapFilter.js', 436, 420 ]
+1902 silly gunzTarPerm extractEntry src/pixi/filters/PixelateFilter.js
+1903 silly gunzTarPerm modified mode [ 'src/pixi/filters/PixelateFilter.js', 436, 420 ]
+1904 silly gunzTarPerm extractEntry src/pixi/filters/RGBSplitFilter.js
+1905 silly gunzTarPerm modified mode [ 'src/pixi/filters/RGBSplitFilter.js', 436, 420 ]
+1906 silly gunzTarPerm extractEntry src/pixi/filters/SepiaFilter.js
+1907 silly gunzTarPerm modified mode [ 'src/pixi/filters/SepiaFilter.js', 436, 420 ]
+1908 silly gunzTarPerm extractEntry src/pixi/filters/SmartBlurFilter.js
+1909 silly gunzTarPerm modified mode [ 'src/pixi/filters/SmartBlurFilter.js', 436, 420 ]
+1910 silly gunzTarPerm extractEntry src/pixi/filters/TwistFilter.js
+1911 silly gunzTarPerm modified mode [ 'src/pixi/filters/TwistFilter.js', 436, 420 ]
+1912 silly gunzTarPerm extractEntry src/pixi/loaders/
+1913 silly gunzTarPerm modified mode [ 'src/pixi/loaders/', 509, 493 ]
+1914 silly gunzTarPerm extractEntry src/pixi/loaders/AssetLoader.js
+1915 silly gunzTarPerm modified mode [ 'src/pixi/loaders/AssetLoader.js', 436, 420 ]
+1916 silly gunzTarPerm extractEntry src/pixi/loaders/AtlasLoader.js
+1917 silly gunzTarPerm modified mode [ 'src/pixi/loaders/AtlasLoader.js', 436, 420 ]
+1918 silly gunzTarPerm extractEntry src/pixi/loaders/BitmapFontLoader.js
+1919 silly gunzTarPerm modified mode [ 'src/pixi/loaders/BitmapFontLoader.js', 436, 420 ]
+1920 silly gunzTarPerm extractEntry src/pixi/loaders/ImageLoader.js
+1921 silly gunzTarPerm modified mode [ 'src/pixi/loaders/ImageLoader.js', 436, 420 ]
+1922 silly gunzTarPerm extractEntry src/pixi/loaders/JsonLoader.js
+1923 silly gunzTarPerm modified mode [ 'src/pixi/loaders/JsonLoader.js', 436, 420 ]
+1924 silly gunzTarPerm extractEntry src/pixi/loaders/SpineLoader.js
+1925 silly gunzTarPerm modified mode [ 'src/pixi/loaders/SpineLoader.js', 436, 420 ]
+1926 silly gunzTarPerm extractEntry src/pixi/loaders/SpriteSheetLoader.js
+1927 silly gunzTarPerm modified mode [ 'src/pixi/loaders/SpriteSheetLoader.js', 436, 420 ]
+1928 silly gunzTarPerm extractEntry src/pixi/primitives/
+1929 silly gunzTarPerm modified mode [ 'src/pixi/primitives/', 509, 493 ]
+1930 silly gunzTarPerm extractEntry src/pixi/primitives/Graphics.js
+1931 silly gunzTarPerm modified mode [ 'src/pixi/primitives/Graphics.js', 436, 420 ]
+1932 silly gunzTarPerm extractEntry src/pixi/renderers/
+1933 silly gunzTarPerm modified mode [ 'src/pixi/renderers/', 509, 493 ]
+1934 silly gunzTarPerm extractEntry src/pixi/renderers/canvas/
+1935 silly gunzTarPerm modified mode [ 'src/pixi/renderers/canvas/', 509, 493 ]
+1936 silly gunzTarPerm extractEntry src/pixi/renderers/canvas/CanvasGraphics.js
+1937 silly gunzTarPerm modified mode [ 'src/pixi/renderers/canvas/CanvasGraphics.js', 436, 420 ]
+1938 silly gunzTarPerm extractEntry src/pixi/renderers/canvas/CanvasRenderer.js
+1939 silly gunzTarPerm modified mode [ 'src/pixi/renderers/canvas/CanvasRenderer.js', 436, 420 ]
+1940 silly gunzTarPerm extractEntry src/pixi/renderers/canvas/utils/
+1941 silly gunzTarPerm modified mode [ 'src/pixi/renderers/canvas/utils/', 509, 493 ]
+1942 silly gunzTarPerm extractEntry src/pixi/renderers/canvas/utils/CanvasMaskManager.js
+1943 silly gunzTarPerm modified mode [ 'src/pixi/renderers/canvas/utils/CanvasMaskManager.js',
+1943 silly gunzTarPerm   436,
+1943 silly gunzTarPerm   420 ]
+1944 silly gunzTarPerm extractEntry src/pixi/renderers/canvas/utils/CanvasTinter.js
+1945 silly gunzTarPerm modified mode [ 'src/pixi/renderers/canvas/utils/CanvasTinter.js', 436, 420 ]
+1946 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/
+1947 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/', 509, 493 ]
+1948 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/WebGLRenderer.js
+1949 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/WebGLRenderer.js', 436, 420 ]
+1950 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/shaders/
+1951 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/shaders/', 509, 493 ]
+1952 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/shaders/ComplexPrimitiveShader.js
+1953 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/shaders/ComplexPrimitiveShader.js',
+1953 silly gunzTarPerm   436,
+1953 silly gunzTarPerm   420 ]
+1954 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/shaders/PixiFastShader.js
+1955 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/shaders/PixiFastShader.js',
+1955 silly gunzTarPerm   436,
+1955 silly gunzTarPerm   420 ]
+1956 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/shaders/PixiShader.js
+1957 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/shaders/PixiShader.js', 436, 420 ]
+1958 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/shaders/PrimitiveShader.js
+1959 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/shaders/PrimitiveShader.js',
+1959 silly gunzTarPerm   436,
+1959 silly gunzTarPerm   420 ]
+1960 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/shaders/StripShader.js
+1961 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/shaders/StripShader.js', 436, 420 ]
+1962 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/
+1963 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/', 509, 493 ]
+1964 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/FilterTexture.js
+1965 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/FilterTexture.js', 436, 420 ]
+1966 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/WebGLBlendModeManager.js
+1967 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/WebGLBlendModeManager.js',
+1967 silly gunzTarPerm   436,
+1967 silly gunzTarPerm   420 ]
+1968 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/WebGLFastSpriteBatch.js
+1969 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/WebGLFastSpriteBatch.js',
+1969 silly gunzTarPerm   436,
+1969 silly gunzTarPerm   420 ]
+1970 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/WebGLFilterManager.js
+1971 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/WebGLFilterManager.js',
+1971 silly gunzTarPerm   436,
+1971 silly gunzTarPerm   420 ]
+1972 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/WebGLGraphics.js
+1973 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/WebGLGraphics.js', 436, 420 ]
+1974 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/WebGLMaskManager.js
+1975 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/WebGLMaskManager.js',
+1975 silly gunzTarPerm   436,
+1975 silly gunzTarPerm   420 ]
+1976 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/WebGLShaderManager.js
+1977 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/WebGLShaderManager.js',
+1977 silly gunzTarPerm   436,
+1977 silly gunzTarPerm   420 ]
+1978 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/WebGLShaderUtils.js
+1979 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/WebGLShaderUtils.js',
+1979 silly gunzTarPerm   436,
+1979 silly gunzTarPerm   420 ]
+1980 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/WebGLSpriteBatch.js
+1981 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/WebGLSpriteBatch.js',
+1981 silly gunzTarPerm   436,
+1981 silly gunzTarPerm   420 ]
+1982 silly gunzTarPerm extractEntry src/pixi/renderers/webgl/utils/WebGLStencilManager.js
+1983 silly gunzTarPerm modified mode [ 'src/pixi/renderers/webgl/utils/WebGLStencilManager.js',
+1983 silly gunzTarPerm   436,
+1983 silly gunzTarPerm   420 ]
+1984 silly gunzTarPerm extractEntry src/pixi/text/
+1985 silly gunzTarPerm modified mode [ 'src/pixi/text/', 509, 493 ]
+1986 silly gunzTarPerm extractEntry src/pixi/text/BitmapText.js
+1987 silly gunzTarPerm modified mode [ 'src/pixi/text/BitmapText.js', 436, 420 ]
+1988 silly gunzTarPerm extractEntry src/pixi/text/Text.js
+1989 silly gunzTarPerm modified mode [ 'src/pixi/text/Text.js', 436, 420 ]
+1990 silly gunzTarPerm extractEntry src/pixi/textures/
+1991 silly gunzTarPerm modified mode [ 'src/pixi/textures/', 509, 493 ]
+1992 silly gunzTarPerm extractEntry src/pixi/textures/BaseTexture.js
+1993 silly gunzTarPerm modified mode [ 'src/pixi/textures/BaseTexture.js', 436, 420 ]
+1994 silly gunzTarPerm extractEntry src/pixi/textures/RenderTexture.js
+1995 silly gunzTarPerm modified mode [ 'src/pixi/textures/RenderTexture.js', 436, 420 ]
+1996 silly gunzTarPerm extractEntry src/pixi/textures/Texture.js
+1997 silly gunzTarPerm modified mode [ 'src/pixi/textures/Texture.js', 436, 420 ]
+1998 silly gunzTarPerm extractEntry src/pixi/utils/
+1999 silly gunzTarPerm modified mode [ 'src/pixi/utils/', 509, 493 ]
+2000 silly gunzTarPerm extractEntry src/pixi/utils/Detector.js
+2001 silly gunzTarPerm modified mode [ 'src/pixi/utils/Detector.js', 436, 420 ]
+2002 silly gunzTarPerm extractEntry src/pixi/utils/EventTarget.js
+2003 silly gunzTarPerm modified mode [ 'src/pixi/utils/EventTarget.js', 436, 420 ]
+2004 silly gunzTarPerm extractEntry src/pixi/utils/Polyk.js
+2005 silly gunzTarPerm modified mode [ 'src/pixi/utils/Polyk.js', 436, 420 ]
+2006 silly gunzTarPerm extractEntry src/pixi/utils/Utils.js
+2007 silly gunzTarPerm modified mode [ 'src/pixi/utils/Utils.js', 436, 420 ]
+2008 silly gunzTarPerm extractEntry src/sound/
+2009 silly gunzTarPerm modified mode [ 'src/sound/', 509, 493 ]
+2010 silly gunzTarPerm extractEntry src/sound/Sound.js
+2011 silly gunzTarPerm modified mode [ 'src/sound/Sound.js', 436, 420 ]
+2012 silly gunzTarPerm extractEntry src/sound/SoundManager.js
+2013 silly gunzTarPerm modified mode [ 'src/sound/SoundManager.js', 436, 420 ]
+2014 silly gunzTarPerm extractEntry src/system/
+2015 silly gunzTarPerm modified mode [ 'src/system/', 509, 493 ]
+2016 silly gunzTarPerm extractEntry src/system/Canvas.js
+2017 silly gunzTarPerm modified mode [ 'src/system/Canvas.js', 436, 420 ]
+2018 silly gunzTarPerm extractEntry src/system/Device.js
+2019 silly gunzTarPerm modified mode [ 'src/system/Device.js', 436, 420 ]
+2020 silly gunzTarPerm extractEntry src/system/RequestAnimationFrame.js
+2021 silly gunzTarPerm modified mode [ 'src/system/RequestAnimationFrame.js', 436, 420 ]
+2022 silly gunzTarPerm extractEntry src/tilemap/
+2023 silly gunzTarPerm modified mode [ 'src/tilemap/', 509, 493 ]
+2024 silly gunzTarPerm extractEntry src/tilemap/Tile.js
+2025 silly gunzTarPerm modified mode [ 'src/tilemap/Tile.js', 436, 420 ]
+2026 silly gunzTarPerm extractEntry src/tilemap/Tilemap.js
+2027 silly gunzTarPerm modified mode [ 'src/tilemap/Tilemap.js', 436, 420 ]
+2028 silly gunzTarPerm extractEntry src/tilemap/TilemapLayer.js
+2029 silly gunzTarPerm modified mode [ 'src/tilemap/TilemapLayer.js', 436, 420 ]
+2030 silly gunzTarPerm extractEntry src/tilemap/TilemapParser.js
+2031 silly gunzTarPerm modified mode [ 'src/tilemap/TilemapParser.js', 436, 420 ]
+2032 silly gunzTarPerm extractEntry src/tilemap/Tileset.js
+2033 silly gunzTarPerm modified mode [ 'src/tilemap/Tileset.js', 436, 420 ]
+2034 silly gunzTarPerm extractEntry src/time/
+2035 silly gunzTarPerm modified mode [ 'src/time/', 509, 493 ]
+2036 silly gunzTarPerm extractEntry src/time/Time.js
+2037 silly gunzTarPerm modified mode [ 'src/time/Time.js', 436, 420 ]
+2038 silly gunzTarPerm extractEntry src/time/Timer.js
+2039 silly gunzTarPerm modified mode [ 'src/time/Timer.js', 436, 420 ]
+2040 silly gunzTarPerm extractEntry src/time/TimerEvent.js
+2041 silly gunzTarPerm modified mode [ 'src/time/TimerEvent.js', 436, 420 ]
+2042 silly gunzTarPerm extractEntry src/tween/
+2043 silly gunzTarPerm modified mode [ 'src/tween/', 509, 493 ]
+2044 silly gunzTarPerm extractEntry src/tween/Easing.js
+2045 silly gunzTarPerm modified mode [ 'src/tween/Easing.js', 436, 420 ]
+2046 silly gunzTarPerm extractEntry src/tween/Tween.js
+2047 silly gunzTarPerm modified mode [ 'src/tween/Tween.js', 436, 420 ]
+2048 silly gunzTarPerm extractEntry src/tween/TweenManager.js
+2049 silly gunzTarPerm modified mode [ 'src/tween/TweenManager.js', 436, 420 ]
+2050 silly gunzTarPerm extractEntry src/utils/
+2051 silly gunzTarPerm modified mode [ 'src/utils/', 509, 493 ]
+2052 silly gunzTarPerm extractEntry src/utils/Color.js
+2053 silly gunzTarPerm modified mode [ 'src/utils/Color.js', 436, 420 ]
+2054 silly gunzTarPerm extractEntry src/utils/Debug.js
+2055 silly gunzTarPerm modified mode [ 'src/utils/Debug.js', 436, 420 ]
+2056 silly gunzTarPerm extractEntry src/utils/Utils.js
+2057 silly gunzTarPerm modified mode [ 'src/utils/Utils.js', 436, 420 ]
+2058 silly gunzTarPerm extractEntry tasks/
+2059 silly gunzTarPerm modified mode [ 'tasks/', 509, 493 ]
+2060 silly gunzTarPerm extractEntry tasks/.jshintrc
+2061 silly gunzTarPerm modified mode [ 'tasks/.jshintrc', 436, 420 ]
+2062 silly gunzTarPerm extractEntry tasks/banner.txt
+2063 silly gunzTarPerm modified mode [ 'tasks/banner.txt', 436, 420 ]
+2064 silly gunzTarPerm extractEntry tasks/manifests/
+2065 silly gunzTarPerm modified mode [ 'tasks/manifests/', 509, 493 ]
+2066 silly gunzTarPerm extractEntry tasks/manifests/arcade-physics.json
+2067 silly gunzTarPerm modified mode [ 'tasks/manifests/arcade-physics.json', 436, 420 ]
+2068 silly gunzTarPerm extractEntry tasks/manifests/ninja.json
+2069 silly gunzTarPerm modified mode [ 'tasks/manifests/ninja.json', 436, 420 ]
+2070 silly gunzTarPerm extractEntry tasks/manifests/p2.json
+2071 silly gunzTarPerm modified mode [ 'tasks/manifests/p2.json', 436, 420 ]
+2072 silly gunzTarPerm extractEntry tasks/manifests/phaser-nophysics.json
+2073 silly gunzTarPerm modified mode [ 'tasks/manifests/phaser-nophysics.json', 436, 420 ]
+2074 silly gunzTarPerm extractEntry tasks/manifests/phaser.json
+2075 silly gunzTarPerm modified mode [ 'tasks/manifests/phaser.json', 436, 420 ]
+2076 silly gunzTarPerm extractEntry tasks/manifests/pixi.json
+2077 silly gunzTarPerm modified mode [ 'tasks/manifests/pixi.json', 436, 420 ]
+2078 silly gunzTarPerm extractEntry tasks/options/
+2079 silly gunzTarPerm modified mode [ 'tasks/options/', 509, 493 ]
+2080 silly gunzTarPerm extractEntry tasks/options/clean.js
+2081 silly gunzTarPerm modified mode [ 'tasks/options/clean.js', 436, 420 ]
+2082 silly gunzTarPerm extractEntry tasks/options/concat.js
+2083 silly gunzTarPerm modified mode [ 'tasks/options/concat.js', 436, 420 ]
+2084 silly gunzTarPerm extractEntry tasks/options/connect.js
+2085 silly gunzTarPerm modified mode [ 'tasks/options/connect.js', 436, 420 ]
+2086 silly gunzTarPerm extractEntry tasks/options/copy.js
+2087 silly gunzTarPerm modified mode [ 'tasks/options/copy.js', 436, 420 ]
+2088 silly gunzTarPerm extractEntry tasks/options/jshint.js
+2089 silly gunzTarPerm modified mode [ 'tasks/options/jshint.js', 436, 420 ]
+2090 silly gunzTarPerm extractEntry tasks/options/replace.js
+2091 silly gunzTarPerm modified mode [ 'tasks/options/replace.js', 436, 420 ]
+2092 silly gunzTarPerm extractEntry tasks/options/uglify.js
+2093 silly gunzTarPerm modified mode [ 'tasks/options/uglify.js', 436, 420 ]
+2094 silly lockFile 3ad0979a-orm-phaser-tarball-v2-1-0-unpack tar:///var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0-unpack
+2095 silly lockFile 3ad0979a-orm-phaser-tarball-v2-1-0-unpack tar:///var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0-unpack
+2096 silly lockFile 2d6619c2-hotonstorm-phaser-tarball-v2-1-0 tar:///var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0
+2097 silly lockFile 2d6619c2-hotonstorm-phaser-tarball-v2-1-0 tar:///var/folders/xy/kykk4hq110g44jd8mnyjclhm0000gp/T/npm-30362-wSYvLVIl/github.com/photonstorm/phaser/tarball/v2.1.0
+2098 silly lockFile e8533fda-hotonstorm-phaser-tarball-v2-1-0 http://github.com/photonstorm/phaser/tarball/v2.1.0
+2099 silly lockFile e8533fda-hotonstorm-phaser-tarball-v2-1-0 http://github.com/photonstorm/phaser/tarball/v2.1.0
+2100 verbose stack Error: Invalid Package: expected Phaser but found phaser
+2100 verbose stack     at /usr/local/lib/node_modules/npm/lib/cache/add-local-tarball.js:161:14
+2100 verbose stack     at process._tickCallback (node.js:419:13)
+2101 verbose cwd /Users/DEV/Sites/www/daily2d
+2102 error Darwin 13.1.0
+2103 error argv "node" "/usr/local/bin/npm" "install" "--save"
+2104 error node v0.10.32
+2105 error npm  v2.0.0
+2106 error Invalid Package: expected Phaser but found phaser
+2107 error If you need help, you may report this error at:
+2107 error     <http://github.com/npm/npm/issues>
+2108 verbose exit [ 1, true ]
