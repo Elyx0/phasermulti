@@ -1,46 +1,38 @@
 var express = require('express'),
     app = express(app),
     path = require('path'),
-    server = require('http').createServer(app),
-    webRoot;
+    Client = require('./client'),
+    Game = require('./game');
+    server = require('http').createServer(app);
 
 var game;
 // serve static files from the current directory
 webRoot = path.resolve(__dirname, '../../client/web');
-assetsRoot = path.resolve(__dirname, '../../assets');
-console.log(assetsRoot);
+assetsRoot = path.resolve(__dirname, '../../client/web/assets');
+buildRoot = path.resolve(__dirname,'../../client/build');
 app.use('/static',express['static'](webRoot));
 app.use('/assets',express['static'](assetsRoot));
+app.use('/build',express['static'](buildRoot));
 app.get('/', function(req, res) {
-    res.sendFile('index.html', {root: webRoot});
+    res.sendFile('./index.html', {root: webRoot});
+});
+
+app.get('/p2', function(req, res) {
+    res.sendFile('./p2.html', {root: webRoot});
 });
 
 app.get('/test',function(req,res){
-    //console.log(game);
 
-    res.send('Prout');
+    console.log(game.on);
+    res.send('Test');
 });
 
 module.exports = app;
 
 
 
-Player = require('./player');
 
-
-
-
-
-//Create phaser game. motherfucker
-
-
-
-
-
-
-
-
-
+var now = Date.now();
 
 
 //classe EurecaServer
@@ -54,6 +46,10 @@ var eurecaServer = new EurecaServer(
 });
 var clients = {};
 
+//Create phaser game. motherfucker
+game = new Game(clients);
+
+
 //attachement de eureca.io au serveur http
 eurecaServer.attach(server);
 
@@ -64,46 +60,34 @@ eurecaServer.onConnect(function (conn)
     //the getClient method provide a proxy allowing us to call remote client functions
     var remote = eurecaServer.getClient(conn.id);
 
-    //register the client
-    clients[conn.id] = {
-        id: conn.id,
-        remote: remote
-    };
+    // //register the client
+    // clients[conn.id] = {
+    //     id: conn.id,
+    //     remote: remote
+    // };
 
-    //here we call setId (defined in the client side)
-    remote.setId(conn.id);
+    clients[conn.id] = new Client(conn.id,remote);
 });
 
 //detection d'une deconnexion
 eurecaServer.onDisconnect(function (conn)
 {
     console.log('Client disconnected ', conn.id);
-    var removeId = clients[conn.id].id;
 
     delete clients[conn.id];
-
     for (var c in clients)
     {
-        var remote = clients[c].remote;
 
-        //here we call kill() method defined in the client side
-        remote.kill(conn.id);
+        clients[c].otherDisconnected(conn.id);
     }
 });
 
-eurecaServer.exports.handleKeys = function (keys,velocity)
+eurecaServer.exports.handleKeys = function (keys)
 {
     var conn = this.connection;
     var updatedClient = clients[conn.id];
-    console.log('Got keys!', keys);
-    for (var c in clients)
-    {
-        var remote = clients[c].remote;
-        remote.updateState(updatedClient.id, keys,velocity);
-
-        //keep last known state so we can send it to new connected clients
-        clients[c].laststate = keys;
-    }
+    updatedClient.addKeys(keys);
+    console.log('[handleKeys]');
 };
 
 eurecaServer.exports.handshake = function (name,color)
@@ -113,34 +97,42 @@ eurecaServer.exports.handshake = function (name,color)
     updatedClient.name = name.substr(0,15);
     updatedClient.color = color;
     //More or less initial snapshot (no delta)
+    //
+    // Better have crazy double check dont replace in spawnEnemy >_>
+    // c = 283823-djeidjei-23d2
     for (var c in clients)
     {
-        var remote = clients[c].remote;
+        var someone = clients[c];
         for (var cc in clients)
         {
-            var x = clients[cc].laststate ? clients[cc].laststate.x : 0;
-            var y = clients[cc].laststate ? clients[cc].laststate.y : 0;
-            var name = clients[cc].name;
-            var color = clients[cc].color;
-            remote.spawnEnemy(clients[cc].id, x, y, name,color);
-            local.spawnEnemy(clients[cc].id, x, y, name,color);
+            var other = clients[cc];
+            other.spawnEnemy(someone);
+            local.spawnEnemy(someone);
         }
     }
 };
 
-var myId = null;
-
 var local = {
-    spawnEnemy: function(i, x, y,name,color)
-          {
-              if (i == myId) return; //this is me rofl don't spawn me !
-
-              console.log('SPAWN');
-              //var pl = new Player(i, game, name, x, y,color);
-              game.add.sprite(x || game.world.centerX, y || game.world.centerY, 'player');
-              console.log(game.cache);
-              //playersList[i] = pl;
-          }
+    spawnEnemy: function(){}
 };
 
 server.listen(8000);
+
+
+
+
+/*
+
+Maybe reinstall nodecCanvas and run phaser on the server too.. But too heavy in my opinion:
+
+curl http://www.cairographics.org/releases/pixman-0.22.0.tar.gz -o pixman.tar.gz
+tar -zxf pixman.tar.gz && cd pixman-0.22.0/
+./configure --prefix=/usr/local --disable-dependency-tracking
+make install
+
+
+curl http://cairographics.org/releases/cairo-1.12.8.tar.xz -o cairo.tar.xz
+tar -zxf cairo.tar.xz && cd cairo-1.12.8
+./configure --prefix=/usr/local --disable-dependency-tracking
+make install
+ */

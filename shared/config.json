@@ -1,0 +1,9 @@
+{
+    "debug": false
+    , "canvasWidth": 640
+    , "canvasHeight": 400
+    , "tickRate": 60
+    , "syncRate": 60
+    , "enableInterpolation": false
+    , "enableExtrapolation": false
+}
