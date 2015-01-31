@@ -2,7 +2,7 @@
 
 Browser based player movement using WebSockets + Phaser + Eureca.io
 
-![Screenshot](/../screenshots/example.png?raw=true "Example")
+![Screenshot](/../screenshots/screeshots/screenshot.png?raw=true "Example")
 
 #### Local Setup
 
